@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a9dd1b66-7af7-41d7-aebf-809802d20dcb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_EditSign_Save"
+	namespace="Ragnarok.UserInterface.Game">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1777321d-855c-4453-80f2-13aafea8e133"
+		sx="1114"
+		sy="617"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9896d2e8-f6ed-44af-bc7a-80c0c5389751"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/button[@name='Save']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="1dc48907-be70-4f4f-be22-68bc003be61e"
+	name="ObjectRepository"
+	relativepath="..\..\ObjectRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ObjectRepository"
+		namespace="Ragnarok">
+		</codegen>
+		<rootfolder
+		id="62145fc8-aa5f-4b62-b8c4-14f257428859"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_EditSign_Save.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

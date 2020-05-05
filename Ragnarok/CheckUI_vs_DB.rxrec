@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9cf052b5-9dec-4b97-8fb4-b4f5c4fc832a"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckUI_vs_DB"
+	namespace="Ragnarok">
+	</codegen>
+	<variables>
+		<var
+		id="ef3a2a9d-1fe9-4c02-ac28-c19f9a735c7d"
+		name="varTurnoverValidationFromDB">
+			True
+		</var>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				UI Steps to change DB TurnoverValidation ConfigValue to True/False
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d6d103d4-7733-4462-b237-bca01fe84d24">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varTurnoverValidationFromDB">
+				</binding>
+			</bindings>
+			<info
+			id="1cc21a56-8bf0-4259-886a-201b9ea97d9f"
+			sourcename="ElementTree">
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']//tabpage[@name='Options']/container[@automationid='ScrollViewer']/text[@name='False']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="1dc48907-be70-4f4f-be22-68bc003be61e"
+	name="ObjectRepository"
+	relativepath="ObjectRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ObjectRepository"
+		namespace="Ragnarok">
+		</codegen>
+		<rootfolder
+		id="62145fc8-aa5f-4b62-b8c4-14f257428859"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckUI_vs_DB.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

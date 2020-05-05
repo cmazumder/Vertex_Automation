@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{DC7C87CA-B18D-4B22-88FE-6D792D628FD8}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Ragnarok[Ragnarok[]]]&#xD;&#xA;Solution Ragnarok\Ragnarok\Ragnarok.rxtst&#xD;&#xA;Solution Ragnarok\Ragnarok\ChangeConfig2.rxrec" />
+  <StartupProject value="{DC7C87CA-B18D-4B22-88FE-6D792D628FD8}" />
+</Properties>

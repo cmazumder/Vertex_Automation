@@ -1,0 +1,5 @@
+txt_sign_friendlyName,TestCase_Action
+Nice friendly sign name,Pass
+,Fail
+Lorem ipsum dolor sit amet consectetuer adipiscing eli,Fail
+Lorem ipsum dolor sit amet consectetuer adipiscin 1,Pass

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a00ae79a-06d5-4afb-a915-573a43479248"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_saveProg"
+	namespace="Ragnarok.UserInterface.Progressive">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="07039674-97ae-4c91-98d4-839c1f6e712b"
+		sx="1028"
+		sy="624"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9896d2e8-f6ed-44af-bc7a-80c0c5389751"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="21"
+				prefcap="button"
+				rect="978,605,64,28"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4108
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/button[@name='Save']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="affa7f05-17d2-4ff1-af1d-3afb515fb082">
+				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
+FFABRRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="1dc48907-be70-4f4f-be22-68bc003be61e"
+	name="ObjectRepository"
+	relativepath="..\..\ObjectRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ObjectRepository"
+		namespace="Ragnarok">
+		</codegen>
+		<rootfolder
+		id="62145fc8-aa5f-4b62-b8c4-14f257428859"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_saveProg.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

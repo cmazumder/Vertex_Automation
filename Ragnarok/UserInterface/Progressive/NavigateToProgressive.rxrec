@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f06f89aa-d0c2-4971-b9b2-98a8298bbfc3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NavigateToProgressive"
+	namespace="Ragnarok.UserInterface.Progressive">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e4af2cd1-c2d5-49d4-96f2-a474445eab7f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c681b2ef-466f-4480-8924-04722fa82df8"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="334,139,81,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4872
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/list[@automationid='navigationControl']/?/?/text[@name='Progressives']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="94dce38d-807f-4673-8e2a-5eeb8fea8114">
+				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
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Progressives
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="60;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2c70d9ec-5b6f-48f2-8cc2-8d010b25a356"
+		sx="394"
+		sy="152"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c681b2ef-466f-4480-8924-04722fa82df8"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="334,139,81,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Progressives
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4872
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/list[@automationid='navigationControl']/?/?/text[@name='Progressives']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="64212be9-7d06-49b3-b0e9-beba29e9b1e8">
+				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
+Kq3sIBgg+lSeYfamUVXJHsRzy7n/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="7aada93a-ac5a-48fe-93e8-695025ab538c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d641ed99-64f7-40f2-b251-0757081a88d1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/table[1]/row[@automationid='ColumnHeadersPresenter']/cell[@name='Progressive']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Progressive
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="1dc48907-be70-4f4f-be22-68bc003be61e"
+	name="ObjectRepository"
+	relativepath="..\..\ObjectRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ObjectRepository"
+		namespace="Ragnarok">
+		</codegen>
+		<rootfolder
+		id="62145fc8-aa5f-4b62-b8c4-14f257428859"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NavigateToProgressive.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

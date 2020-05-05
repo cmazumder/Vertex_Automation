@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{DC7C87CA-B18D-4B22-88FE-6D792D628FD8}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ragnarok</RootNamespace>
+    <AssemblyName>Ragnarok</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>ed024bde-e83d-4faa-aa94-46865797d662</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RanorexAutomationHelpers">
+      <HintPath>..\RanorexAutomationHelpers\bin\Debug\RanorexAutomationHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomActions.cs">
+      <id>f91c6a96-e244-4da9-93c2-374061248d66</id>
+    </Compile>
+    <Compile Include="CheckUI_vs_DB.cs">
+      <BoundTo>60cdf745-9eda-4344-a1d0-d0a941908ea9</BoundTo>
+      <DependentUpon>CheckUI_vs_DB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4a90807-6716-4c5a-b145-abdd0d7af100</id>
+    </Compile>
+    <Compile Include="CheckUI_vs_DB.UserCode.cs">
+      <BoundTo>60cdf745-9eda-4344-a1d0-d0a941908ea9</BoundTo>
+      <DependentUpon>CheckUI_vs_DB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8df216d4-099f-41bf-a51a-0825796c605d</id>
+    </Compile>
+    <Compile Include="RamClear.cs">
+      <BoundTo>4f677ee7-28c7-4e6e-8f8b-f968b12d7447</BoundTo>
+      <DependentUpon>RamClear.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be8de477-fc73-4756-8a2c-2db89a1c77c7</id>
+    </Compile>
+    <Compile Include="RamClear.UserCode.cs">
+      <BoundTo>4f677ee7-28c7-4e6e-8f8b-f968b12d7447</BoundTo>
+      <DependentUpon>RamClear.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06ae22a0-17c9-4d99-8a30-2021fd58a67d</id>
+    </Compile>
+    <Compile Include="Recording_Misc.cs">
+      <BoundTo>a7d52ee9-0923-446d-9120-10ebc17ad1e7</BoundTo>
+      <DependentUpon>Recording_Misc.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>056a31f7-cc03-4332-8f9d-0ec905be4b69</id>
+    </Compile>
+    <Compile Include="Recording_Misc.UserCode.cs">
+      <BoundTo>a7d52ee9-0923-446d-9120-10ebc17ad1e7</BoundTo>
+      <DependentUpon>Recording_Misc.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>69a959b0-2875-445c-9632-5bf4d6532544</id>
+    </Compile>
+    <Compile Include="SelectJurisdiction_CA.cs">
+      <BoundTo>b4d6cd71-6562-4910-a80d-cc3e5f536d90</BoundTo>
+      <DependentUpon>SelectJurisdiction_CA.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7604f509-9eb4-4de5-8125-f363610ba275</id>
+    </Compile>
+    <Compile Include="SelectJurisdiction_CA.UserCode.cs">
+      <BoundTo>b4d6cd71-6562-4910-a80d-cc3e5f536d90</BoundTo>
+      <DependentUpon>SelectJurisdiction_CA.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f7c0c2eb-8de5-4045-b487-2765189ceb95</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>8b863646-7e00-4000-b0be-22d6b8a127c4</id>
+    </Compile>
+    <Compile Include="CloseShell.cs">
+      <BoundTo>097eeef2-5cfb-4ace-8508-f3c41d21759a</BoundTo>
+      <DependentUpon>CloseShell.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8604c7d6-9dee-47e4-89cd-8bf6b808f339</id>
+    </Compile>
+    <Compile Include="CloseShell.UserCode.cs">
+      <BoundTo>097eeef2-5cfb-4ace-8508-f3c41d21759a</BoundTo>
+      <DependentUpon>CloseShell.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3d07547b-5784-41f3-8940-1e89de31a110</id>
+    </Compile>
+    <Compile Include="LogoutVertexShell.cs">
+      <BoundTo>fbe01a2d-fdf5-4c0a-9a36-4e5a3ad9f45f</BoundTo>
+      <DependentUpon>LogoutVertexShell.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>24dd3c0d-11a8-49ac-be63-9a96b73380b2</id>
+    </Compile>
+    <Compile Include="LogoutVertexShell.UserCode.cs">
+      <BoundTo>fbe01a2d-fdf5-4c0a-9a36-4e5a3ad9f45f</BoundTo>
+      <DependentUpon>LogoutVertexShell.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>49e1c86f-9883-469a-8b4d-cb3ebe95b4e6</id>
+    </Compile>
+    <Compile Include="fst_Login.cs">
+      <BoundTo>a860bed8-f24d-4575-aea4-b713659edaa3</BoundTo>
+      <DependentUpon>fst_Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e2f76fe7-ed02-4f74-909c-1f54e2a76eac</id>
+    </Compile>
+    <Compile Include="fst_Login.UserCode.cs">
+      <BoundTo>a860bed8-f24d-4575-aea4-b713659edaa3</BoundTo>
+      <DependentUpon>fst_Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>950cbf07-6225-4647-bdb8-6b45292da540</id>
+    </Compile>
+    <Compile Include="ObjectRepository.cs">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <DependentUpon>ObjectRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>624a861b-c3f2-468c-942f-8f571e2f82a6</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>d594c9a1-5843-4377-ba37-f2bad9232b34</id>
+    </Compile>
+    <Compile Include="StartController.cs">
+      <BoundTo>6a35b296-5bd6-4eb5-838a-1e7927b90bed</BoundTo>
+      <DependentUpon>StartController.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>46e3b34d-4b1c-453e-968b-ef925f24ae6f</id>
+    </Compile>
+    <Compile Include="StartController.UserCode.cs">
+      <BoundTo>6a35b296-5bd6-4eb5-838a-1e7927b90bed</BoundTo>
+      <DependentUpon>StartController.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ec8e8f96-9570-46c3-96ac-2abc2439728c</id>
+    </Compile>
+    <Compile Include="StartShell.cs">
+      <BoundTo>91663212-e582-4060-974c-6fdd2bc50b56</BoundTo>
+      <DependentUpon>StartShell.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>67abc838-6761-4cc2-a76f-19824346fa8c</id>
+    </Compile>
+    <Compile Include="StartShell.UserCode.cs">
+      <BoundTo>91663212-e582-4060-974c-6fdd2bc50b56</BoundTo>
+      <DependentUpon>StartShell.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>22f2ca29-1ec8-4e77-ab57-57f151b1a0f1</id>
+    </Compile>
+    <Compile Include="StopController.cs">
+      <BoundTo>8c64b29f-2d5e-48cb-8419-4f5653614bc7</BoundTo>
+      <DependentUpon>StopController.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27b68b04-3139-4fc9-b2d9-cd9fb9def871</id>
+    </Compile>
+    <Compile Include="StopController.UserCode.cs">
+      <BoundTo>8c64b29f-2d5e-48cb-8419-4f5653614bc7</BoundTo>
+      <DependentUpon>StopController.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>885c47ec-a954-4e78-9f72-e41f647b1ee4</id>
+    </Compile>
+    <Compile Include="UserInterface\Casino\AddCasinos.cs">
+      <BoundTo>473afae6-2263-4001-9ca1-1bf6e385fc33</BoundTo>
+      <DependentUpon>AddCasinos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48f5c5d6-d193-4fcb-9c26-10e3694c0158</id>
+    </Compile>
+    <Compile Include="UserInterface\Casino\AddCasinos.UserCode.cs">
+      <BoundTo>473afae6-2263-4001-9ca1-1bf6e385fc33</BoundTo>
+      <DependentUpon>AddCasinos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e6d181f-b001-4d21-a184-7c352f42d844</id>
+    </Compile>
+    <Compile Include="UserInterface\Casino\NavigateToCasinoCreator.cs">
+      <DependentUpon>NavigateToCasinoCreator.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9901f544-102d-4370-80a4-14c050c2070b</id>
+      <BoundTo>d19e6af1-ac12-4806-be3c-4d2d6667ad80</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Casino\NavigateToCasinoCreator.UserCode.cs">
+      <DependentUpon>NavigateToCasinoCreator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa75949a-1ec9-4d90-a87e-24f6a6e73fd5</id>
+      <BoundTo>d19e6af1-ac12-4806-be3c-4d2d6667ad80</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\CloseUI.cs">
+      <DependentUpon>CloseUI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b191c88c-212a-40a5-a34d-d422d1351914</id>
+      <BoundTo>325786b3-2eaf-48d6-9c85-b35517959013</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\CloseUI.UserCode.cs">
+      <DependentUpon>CloseUI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>efbbde80-3358-4eb7-bdb2-8f5891d00d36</id>
+      <BoundTo>325786b3-2eaf-48d6-9c85-b35517959013</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Configuration\ChangeConfig.cs">
+      <DependentUpon>ChangeConfig.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8bf1aed4-4cc2-45ce-b940-7f4b00426ac3</id>
+      <BoundTo>23c47262-6073-4d69-ae0f-80f22d5540a5</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Configuration\ChangeConfig.UserCode.cs">
+      <DependentUpon>ChangeConfig.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3870da7a-9210-4cbb-8188-2a4cb59f06c2</id>
+      <BoundTo>23c47262-6073-4d69-ae0f-80f22d5540a5</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Configuration\ChangeConfig2.cs">
+      <DependentUpon>ChangeConfig2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89484f76-8cfe-4f8e-8ae3-ffdaecd04ade</id>
+      <BoundTo>801c34b7-be16-4204-b9fa-a5c4adbef620</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Configuration\ChangeConfig2.UserCode.cs">
+      <DependentUpon>ChangeConfig2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3d969967-150a-4ac3-b536-4584bb44deb7</id>
+      <BoundTo>801c34b7-be16-4204-b9fa-a5c4adbef620</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\EGM\AddEGM.cs">
+      <DependentUpon>AddEGM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91b23631-6d7c-4aeb-adc7-7c4c518eacd4</id>
+      <BoundTo>f3c32f26-e243-4a5a-b77a-29e7fb2c4353</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\EGM\AddEGM.UserCode.cs">
+      <DependentUpon>AddEGM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e706882-d593-447d-9e93-8f1ae0e6fb29</id>
+      <BoundTo>f3c32f26-e243-4a5a-b77a-29e7fb2c4353</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Game\AddGame.cs">
+      <DependentUpon>AddGame.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27686246-d102-4415-ae6a-dc328d9b950d</id>
+      <BoundTo>286778eb-a6ad-44df-9c1b-169ae5d46e5c</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Game\AddGame.UserCode.cs">
+      <DependentUpon>AddGame.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>154dab9d-293b-44a8-8bc4-b61320127c12</id>
+      <BoundTo>286778eb-a6ad-44df-9c1b-169ae5d46e5c</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Game\Add_SignManually.cs">
+      <BoundTo>9ead35f4-5125-4365-a06e-40035aced209</BoundTo>
+      <DependentUpon>Add_SignManually.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e88f6730-09d7-49e7-9704-fe2b3303b886</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Add_SignManually.UserCode.cs">
+      <BoundTo>9ead35f4-5125-4365-a06e-40035aced209</BoundTo>
+      <DependentUpon>Add_SignManually.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6215d141-1a9b-4264-a6bf-79f9af3b9931</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Click_AddNewSign_Save.cs">
+      <BoundTo>82665719-5121-4a7a-b6af-9cd9271918c5</BoundTo>
+      <DependentUpon>Click_AddNewSign_Save.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6105a8c4-8d94-4fc5-b6de-716ec757d5d1</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Click_AddNewSign_Save.UserCode.cs">
+      <BoundTo>82665719-5121-4a7a-b6af-9cd9271918c5</BoundTo>
+      <DependentUpon>Click_AddNewSign_Save.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>262c361e-c3a1-4695-97ab-6fd37264f594</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Click_EditSign_Save.cs">
+      <BoundTo>294e6e63-188a-4c26-bfcb-a73b4ffb5825</BoundTo>
+      <DependentUpon>Click_EditSign_Save.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4cf1ce2d-736c-4cc6-81c3-7940f871f70b</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Click_EditSign_Save.UserCode.cs">
+      <BoundTo>294e6e63-188a-4c26-bfcb-a73b4ffb5825</BoundTo>
+      <DependentUpon>Click_EditSign_Save.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e16196b6-b5a6-4ff7-af02-41c77d54cea5</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Edit_SignFriendlyName.cs">
+      <BoundTo>2fcd5071-bc6c-4e1f-b7c6-9805f0b4c6cc</BoundTo>
+      <DependentUpon>Edit_SignFriendlyName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e042f054-d193-4edf-99a1-f3e07b93d39f</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Edit_SignFriendlyName.UserCode.cs">
+      <BoundTo>2fcd5071-bc6c-4e1f-b7c6-9805f0b4c6cc</BoundTo>
+      <DependentUpon>Edit_SignFriendlyName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>10effd7c-d5aa-49a4-9cd1-344cf1e8fdef</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\NavigateToGamesCreator.cs">
+      <DependentUpon>NavigateToGamesCreator.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e0535339-6020-4535-b0c6-b04fb37780fb</id>
+      <BoundTo>abfe3465-10e8-4d1d-b34c-6c2107c7f12d</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Game\NavigateToGamesCreator.UserCode.cs">
+      <DependentUpon>NavigateToGamesCreator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>df860447-30b0-4d11-9938-9e43c0b707fd</id>
+      <BoundTo>abfe3465-10e8-4d1d-b34c-6c2107c7f12d</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Game\Open_ScreenSign.cs">
+      <BoundTo>9c6635d5-618a-4db1-9571-b2008b437f19</BoundTo>
+      <DependentUpon>Open_ScreenSign.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ff8ee35-d33d-4725-8858-6d06e0a92ee6</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Open_ScreenSign.UserCode.cs">
+      <BoundTo>9c6635d5-618a-4db1-9571-b2008b437f19</BoundTo>
+      <DependentUpon>Open_ScreenSign.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c661ca11-930e-4823-b729-f9f8726cd4da</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validate_Sign_FriendlyName.cs">
+      <BoundTo>90f4af18-dd14-4759-9dab-4d41de398a45</BoundTo>
+      <DependentUpon>Validate_Sign_FriendlyName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6c6bece-6889-4b8d-a3d9-de116cbc6aa4</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validate_Sign_FriendlyName.UserCode.cs">
+      <BoundTo>90f4af18-dd14-4759-9dab-4d41de398a45</BoundTo>
+      <DependentUpon>Validate_Sign_FriendlyName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af02c281-da0c-4fe6-8f6b-7cd838de82bb</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validation_AddNewSign_SaveButton_Disabled.cs">
+      <BoundTo>6c340375-e4b6-4f9f-b304-36efe77b2129</BoundTo>
+      <DependentUpon>Validation_AddNewSign_SaveButton_Disabled.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31d5d9b9-cfe0-4bd1-b8f5-cdca18963cf8</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validation_AddNewSign_SaveButton_Disabled.UserCode.cs">
+      <BoundTo>6c340375-e4b6-4f9f-b304-36efe77b2129</BoundTo>
+      <DependentUpon>Validation_AddNewSign_SaveButton_Disabled.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>74c2751c-ed4b-48a6-a799-a107e16fef81</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validation_EditSign_SaveButton_Disabled.cs">
+      <BoundTo>8322fa34-822f-456b-a8f6-4425a1acac03</BoundTo>
+      <DependentUpon>Validation_EditSign_SaveButton_Disabled.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>282fe5bb-ce5f-4580-9f3b-d1fb5258d450</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\Validation_EditSign_SaveButton_Disabled.UserCode.cs">
+      <BoundTo>8322fa34-822f-456b-a8f6-4425a1acac03</BoundTo>
+      <DependentUpon>Validation_EditSign_SaveButton_Disabled.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2817c648-aa0b-4fac-9ed9-92be8abe4636</id>
+    </Compile>
+    <Compile Include="UserInterface\Open_UI.cs">
+      <BoundTo>89f34fbf-37bb-45b6-984d-72d90667789b</BoundTo>
+      <DependentUpon>Open_UI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29be12d3-8fb2-47a5-877e-896e7b778c9a</id>
+    </Compile>
+    <Compile Include="UserInterface\Open_UI.UserCode.cs">
+      <BoundTo>89f34fbf-37bb-45b6-984d-72d90667789b</BoundTo>
+      <DependentUpon>Open_UI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2344b92-5a6f-4e6f-84e7-634654f4b2a2</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\AddLevels.cs">
+      <DependentUpon>AddLevels.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe3c8e5f-f5e6-439c-8908-d78873156605</id>
+      <BoundTo>3069616c-dbdc-4245-b5c9-40a6c74c4079</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\AddLevels.UserCode.cs">
+      <DependentUpon>AddLevels.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca9a5d82-09aa-47f6-97c6-00747751bfc2</id>
+      <BoundTo>3069616c-dbdc-4245-b5c9-40a6c74c4079</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\AddProgressive.cs">
+      <DependentUpon>AddProgressive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cd59e430-bbe5-41a4-8a6f-7ba6d8b09d16</id>
+      <BoundTo>5a3dd9d1-1daf-4368-8226-89e908e16c85</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\AddProgressive.UserCode.cs">
+      <DependentUpon>AddProgressive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2118fcc7-6ad6-4b28-b171-0d04cd9258f4</id>
+      <BoundTo>5a3dd9d1-1daf-4368-8226-89e908e16c85</BoundTo>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Click_saveProg.cs">
+      <BoundTo>4986b484-652a-4047-a9db-24beacba1616</BoundTo>
+      <DependentUpon>Click_saveProg.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92105766-a3c3-4877-ab3d-51aaff5f0321</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Click_saveProg.UserCode.cs">
+      <BoundTo>4986b484-652a-4047-a9db-24beacba1616</BoundTo>
+      <DependentUpon>Click_saveProg.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3662abb6-e9b4-477a-8bb1-b2767ef2f066</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\EditProgressive.cs">
+      <BoundTo>48a4ba86-9fd3-4e2f-8d77-e2c8eb60c14e</BoundTo>
+      <DependentUpon>EditProgressive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4f8930a-93c5-493c-a733-37e6e55b7492</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\EditProgressive.UserCode.cs">
+      <BoundTo>48a4ba86-9fd3-4e2f-8d77-e2c8eb60c14e</BoundTo>
+      <DependentUpon>EditProgressive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe68bba0-7e51-43d8-a310-eadafe14f123</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\NavigateToProgressive.cs">
+      <BoundTo>f99e515c-8656-42d3-b0c7-1702d5792638</BoundTo>
+      <DependentUpon>NavigateToProgressive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a55ae23-a926-4081-ba7a-21aca2ccb591</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\NavigateToProgressive.UserCode.cs">
+      <BoundTo>f99e515c-8656-42d3-b0c7-1702d5792638</BoundTo>
+      <DependentUpon>NavigateToProgressive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f757ebe6-0cfb-45ed-96b2-5caa63cfa5bd</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Validate_ProgressiveName.cs">
+      <BoundTo>e169d44a-71f4-46a3-8b90-eda775f339b8</BoundTo>
+      <DependentUpon>Validate_ProgressiveName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d711ac24-efc0-4f93-bc0e-8e0491cf02d6</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Validate_ProgressiveName.UserCode.cs">
+      <BoundTo>e169d44a-71f4-46a3-8b90-eda775f339b8</BoundTo>
+      <DependentUpon>Validate_ProgressiveName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2de3868-23cb-4af3-be3e-b21c11068b89</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Validation_ProgSaveButton_Disabled.cs">
+      <BoundTo>c61ffe4b-f233-4658-acfd-ae4949575fe7</BoundTo>
+      <DependentUpon>Validation_ProgSaveButton_Disabled.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5063322-6d6e-45a7-91c2-634958f16962</id>
+    </Compile>
+    <Compile Include="UserInterface\Progressive\Validation_ProgSaveButton_Disabled.UserCode.cs">
+      <BoundTo>c61ffe4b-f233-4658-acfd-ae4949575fe7</BoundTo>
+      <DependentUpon>Validation_ProgSaveButton_Disabled.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a7864908-3064-444a-8b2a-990eddf3551c</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CasinoData.csv">
+      <Link>CasinoData.csv</Link>
+      <BoundTo>6a76c2b3-4a88-4bae-9abd-cba111e71e28</BoundTo>
+      <DependentUpon>Ragnarok.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a94cb3a5-fd3b-4aad-ab13-21b604eb88fd</id>
+    </Content>
+    <Content Include="GameData.csv">
+      <Link>GameData.csv</Link>
+      <BoundTo>6a76c2b3-4a88-4bae-9abd-cba111e71e28</BoundTo>
+      <DependentUpon>Ragnarok.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4850f2ee-eae6-46e2-b0c8-30953804c57a</id>
+    </Content>
+    <Content Include="LevelData.csv">
+      <Link>LevelData.csv</Link>
+      <BoundTo>6a76c2b3-4a88-4bae-9abd-cba111e71e28</BoundTo>
+      <DependentUpon>Ragnarok.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>40de828c-46c9-4d77-82ab-5951f0e1c2ed</id>
+    </Content>
+    <None Include="CheckUI_vs_DB.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>60cdf745-9eda-4344-a1d0-d0a941908ea9</id>
+      <recordtableid>9cf052b5-9dec-4b97-8fb4-b4f5c4fc832a</recordtableid>
+    </None>
+    <None Include="RamClear.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>4f677ee7-28c7-4e6e-8f8b-f968b12d7447</id>
+      <recordtableid>809a1d27-89f6-4995-b5a2-ebfa9b0eee71</recordtableid>
+    </None>
+    <None Include="Recording_Misc.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>a7d52ee9-0923-446d-9120-10ebc17ad1e7</id>
+      <recordtableid>4a55130e-178a-4858-ae83-9f25b47deb6c</recordtableid>
+    </None>
+    <None Include="SelectJurisdiction_CA.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>b4d6cd71-6562-4910-a80d-cc3e5f536d90</id>
+      <recordtableid>9597f314-e91e-404e-aeb8-b21114861e8b</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>f0c14fa2-c1f2-458e-a3d8-133347f1e58b</id>
+    </None>
+    <None Include="CloseShell.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>097eeef2-5cfb-4ace-8508-f3c41d21759a</id>
+      <recordtableid>ab3ba1ba-fd9a-40b6-a3d4-044b1db34230</recordtableid>
+    </None>
+    <None Include="LogoutVertexShell.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>fbe01a2d-fdf5-4c0a-9a36-4e5a3ad9f45f</id>
+      <recordtableid>9fb973e1-e1c1-4932-a094-154cc1500a34</recordtableid>
+    </None>
+    <None Include="fst_Login.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>a860bed8-f24d-4575-aea4-b713659edaa3</id>
+      <recordtableid>0b47149b-e5e8-4c10-93c5-e8b38844e346</recordtableid>
+    </None>
+    <None Include="ObjectRepository.rximg">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <DependentUpon>ObjectRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>82361ab6-1002-40e6-b596-a0c7fda590d8</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="ObjectRepository.rxrep">
+      <id>ed024bde-e83d-4faa-aa94-46865797d662</id>
+      <repoid>1dc48907-be70-4f4f-be22-68bc003be61e</repoid>
+      <reporootid>62145fc8-aa5f-4b62-b8c4-14f257428859</reporootid>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="StartController.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>6a35b296-5bd6-4eb5-838a-1e7927b90bed</id>
+      <recordtableid>87c52c91-8e24-495c-9391-f8003554f5c4</recordtableid>
+    </None>
+    <None Include="StartShell.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>91663212-e582-4060-974c-6fdd2bc50b56</id>
+      <recordtableid>401929e4-1fd8-455d-a179-7e7aa503f71f</recordtableid>
+    </None>
+    <None Include="StopController.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>8c64b29f-2d5e-48cb-8419-4f5653614bc7</id>
+      <recordtableid>31ee4f11-17d4-4982-b51a-de43c7f71cdb</recordtableid>
+    </None>
+    <None Include="UserInterface\Casino\AddCasinos.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>473afae6-2263-4001-9ca1-1bf6e385fc33</id>
+      <recordtableid>5157fec5-2045-4e5e-b92f-c8e5eac66698</recordtableid>
+    </None>
+    <None Include="UserInterface\Casino\NavigateToCasinoCreator.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>d19e6af1-ac12-4806-be3c-4d2d6667ad80</id>
+      <recordtableid>a7f17d80-b447-42f4-a71b-f8696259e550</recordtableid>
+    </None>
+    <None Include="UserInterface\CloseUI.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>325786b3-2eaf-48d6-9c85-b35517959013</id>
+      <recordtableid>d7c14ac5-46b6-436a-b2c7-0141c6a4c5a9</recordtableid>
+    </None>
+    <None Include="UserInterface\Configuration\ChangeConfig.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>23c47262-6073-4d69-ae0f-80f22d5540a5</id>
+      <recordtableid>f43f0d9a-c719-4459-9537-fc31800c6c71</recordtableid>
+    </None>
+    <None Include="UserInterface\Configuration\ChangeConfig2.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>801c34b7-be16-4204-b9fa-a5c4adbef620</id>
+      <recordtableid>fe354c54-ed94-445f-b6ae-86bd73cde34f</recordtableid>
+    </None>
+    <None Include="UserInterface\EGM\AddEGM.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>f3c32f26-e243-4a5a-b77a-29e7fb2c4353</id>
+      <recordtableid>2cc3099e-f462-4412-8adb-79f10c8d102f</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\AddGame.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>286778eb-a6ad-44df-9c1b-169ae5d46e5c</id>
+      <recordtableid>bcb3eb91-f496-4a98-889a-1b7483fc6157</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Add_SignManually.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>9ead35f4-5125-4365-a06e-40035aced209</id>
+      <recordtableid>18e2334e-240e-4412-baa6-5a5e3d8fcbb5</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Click_AddNewSign_Save.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>82665719-5121-4a7a-b6af-9cd9271918c5</id>
+      <recordtableid>a8393532-9542-4cf1-a5ae-0371b3e43ad5</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Click_EditSign_Save.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>294e6e63-188a-4c26-bfcb-a73b4ffb5825</id>
+      <recordtableid>a9dd1b66-7af7-41d7-aebf-809802d20dcb</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Edit_SignFriendlyName.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>2fcd5071-bc6c-4e1f-b7c6-9805f0b4c6cc</id>
+      <recordtableid>4f2cd48e-4a1f-41a5-8dc6-4773e5a5709f</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\NavigateToGamesCreator.rxrec">
+      <id>abfe3465-10e8-4d1d-b34c-6c2107c7f12d</id>
+      <recordtableid>9be9b8b7-d7f7-40b5-8f90-572bc0cb2d46</recordtableid>
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+    </None>
+    <None Include="UserInterface\Game\Open_ScreenSign.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>9c6635d5-618a-4db1-9571-b2008b437f19</id>
+      <recordtableid>192326c5-e3c5-4ca6-91fe-860018e30930</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Validate_Sign_FriendlyName.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>90f4af18-dd14-4759-9dab-4d41de398a45</id>
+      <recordtableid>8546432e-e833-4e36-a173-011542fb1046</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Validation_AddNewSign_SaveButton_Disabled.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>6c340375-e4b6-4f9f-b304-36efe77b2129</id>
+      <recordtableid>6a02ac8e-c4fd-4423-95eb-7c8ca09fb99a</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\Validation_EditSign_SaveButton_Disabled.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>8322fa34-822f-456b-a8f6-4425a1acac03</id>
+      <recordtableid>c544fa0d-b944-4599-8ce3-2c1f2b956224</recordtableid>
+    </None>
+    <None Include="UserInterface\Open_UI.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>89f34fbf-37bb-45b6-984d-72d90667789b</id>
+      <recordtableid>5fc93363-a1d4-475d-9595-1db60b4c1996</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\AddLevels.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>3069616c-dbdc-4245-b5c9-40a6c74c4079</id>
+      <recordtableid>9af27251-8cea-4ca1-8cdc-abd129f37b83</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\AddProgressive.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>5a3dd9d1-1daf-4368-8226-89e908e16c85</id>
+      <recordtableid>e851fea4-2fed-4447-a0f8-e5634a46d7be</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\Click_saveProg.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>4986b484-652a-4047-a9db-24beacba1616</id>
+      <recordtableid>a00ae79a-06d5-4afb-a915-573a43479248</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\EditProgressive.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>48a4ba86-9fd3-4e2f-8d77-e2c8eb60c14e</id>
+      <recordtableid>cda0afbd-36f6-41a2-bb4b-e693970aa271</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\NavigateToProgressive.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>f99e515c-8656-42d3-b0c7-1702d5792638</id>
+      <recordtableid>f06f89aa-d0c2-4971-b9b2-98a8298bbfc3</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\Validate_ProgressiveName.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>e169d44a-71f4-46a3-8b90-eda775f339b8</id>
+      <recordtableid>bdeba896-8727-4730-9a6b-d84fafb1f8ce</recordtableid>
+    </None>
+    <None Include="UserInterface\Progressive\Validation_ProgSaveButton_Disabled.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>c61ffe4b-f233-4658-acfd-ae4949575fe7</id>
+      <recordtableid>058b2400-3e59-4c15-8851-62a762527dc9</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ragnarok.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4e5a97ba-2483-44c5-9a18-9a10afa9d929</id>
+    </Content>
+    <Content Include="Ragnarok.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6a76c2b3-4a88-4bae-9abd-cba111e71e28</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserInterface">
+      <id>7da875cf-5347-44ba-b358-52576e48352b</id>
+    </Folder>
+    <Folder Include="UserInterface\Casino">
+      <id>d307a418-30f3-4266-bbfc-8dc78610a4e5</id>
+    </Folder>
+    <Folder Include="UserInterface\Configuration">
+      <id>34085382-0581-4428-811e-ca55edb115b5</id>
+    </Folder>
+    <Folder Include="UserInterface\EGM">
+      <id>7f6968dd-8c63-4cf0-b1b9-cf22eb6352ee</id>
+    </Folder>
+    <Folder Include="UserInterface\Game">
+      <id>72452fb4-cd37-4897-a91c-7a6f36fe0d5b</id>
+    </Folder>
+    <Folder Include="UserInterface\Progressive">
+      <id>cd0a0a2c-fe03-4c50-b104-310b9b41db42</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+  <PropertyGroup>
+    <PreBuildEvent>del /f /q "$(SolutionDir)..\..\lib\ObjectRepository\*.*"</PreBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)ObjectRepository.*" "$(SolutionDir)..\..\lib\ObjectRepository"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

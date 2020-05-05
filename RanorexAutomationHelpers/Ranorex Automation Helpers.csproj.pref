@@ -1,0 +1,10 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Modules\EmailModule.cs" />
+    <Element value="UserCodeCollections\EmailLibrary.cs" />
+    <Element value="UserCodeCollections\FileLibrary.cs" />
+    <Element value="Modules\ReportToPDFModule.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

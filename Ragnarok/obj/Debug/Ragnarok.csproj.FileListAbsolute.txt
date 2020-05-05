@@ -1,0 +1,17 @@
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\CasinoData.csv
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\GameData.csv
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\LevelData.csv
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.rxtmg
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.rxtst
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.exe.config
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.xml
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.exe
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ragnarok.pdb
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\RanorexAutomationHelpers.dll
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\Ranorex.ReportToPDF.exe
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\RanorexAutomationHelpers.pdb
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\bin\Debug\RanorexAutomationHelpers.xml
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\obj\Debug\Ragnarok.csprojResolveAssemblyReference.cache
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\obj\Debug\Ragnarok.exe
+F:\Ranorex\Vertex\src\Ragnarok\Ragnarok\obj\Debug\Ragnarok.pdb

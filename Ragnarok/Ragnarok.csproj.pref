@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Ragnarok.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Ragnarok.rxtst" />
+    <Element value="UserInterface\Game\Edit_SignFriendlyName.rxrec" />
+    <Element value="UserInterface\Game\Validate_Sign_FriendlyName.rxrec" />
+    <Element value="UserInterface\Progressive\Click_save.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Ragnarok.UserInterface.Progressive.EditProgressive.Key_sequence_AristocratVertexWebUI1(RepoItemInfo webdocumentInfo)" />
+    </Array>
+  </Properties>
+</Properties>

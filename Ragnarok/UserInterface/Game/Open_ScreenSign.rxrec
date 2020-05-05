@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="192326c5-e3c5-4ca6-91fe-860018e30930"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Open_ScreenSign"
+	namespace="Ragnarok.UserInterface.Game">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c668c944-cef1-4ca3-b2ae-79d2e08375e3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2278f9cf-2022-43ae-92a3-c08ce4da9b0b"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="397,285,32,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4108
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[2]/?/?/tabpage[@name='Signs']/text[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ecb7af30-6d5a-40c7-8290-471403d03f17">
+				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
+			</helperscreenshot>
+			<matchname>
+				Valid
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="860c18ec-86fe-4127-ac69-6011fe4e081e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2278f9cf-2022-43ae-92a3-c08ce4da9b0b"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="397,285,32,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4108
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[2]/?/?/tabpage[@name='Signs']/text[1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Signs
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="210ms"
+		enabled="True"
+		loc="11;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e13bc903-d7de-4461-bcc2-6b70b35bccf5"
+		sx="408"
+		sy="292"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2278f9cf-2022-43ae-92a3-c08ce4da9b0b"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="397,285,32,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Signs
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4108
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/?/?/tabpage[@name='Signs']/text[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3ef934e9-4fa7-402c-9f05-ebaa629113f9">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACEAIQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDY+zQf
+88I/++BR9mg/54R/98CpaKAIvs0H/PCP/vgUfZoP+eEf/fAqWigCL7NB/wA8I/8AvgUfZoP+eEf/
+AHwKlooAi+zQf88I/wDvgUfZoP8AnhH/AN8CpaKAIvs0H/PCP/vgUfZoP+eEf/fAqWigCL7NB/zw
+j/74FH2aD/nhH/3wKlooAi+zQf8APCP/AL4FH2aD/nhH/wB8CpaKAIvs0H/PCP8A74FH2aD/AJ4R
+/wDfAqWigCL7NB/zwj/74FFS0UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUALtb+6fzFG1v7p/MUlxdLBJGhjkkZw
+SAgz0xn+dI14iKmY5fMfO2Pb83FADtrf3T+Yo2t/dP5ij7UghSSRXjDMEAcYOScU9Zkad4QfnQAs
+Prn/AAoAZtb+6fzFIwKqWYYAGSSRxU9VL/8A495/+uR/kaGOKu0hPtMH/PeL/v4v+NH2mD/nvF/3
+8X/Gsi2Wz8iMSW8k0pBLeWCcDJHPNXhYWZlZPs7DaAdxJwfoc1Ccmrm8o0YycW3p6Fn7TB/z3i/7
++L/jR9pg/wCe8X/fxf8AGoBptkekQP8AwM/40v8AZtn/AM8v/Hj/AI0/eFaj3f4f5k6TRSMFSSNm
+PQBwT/Opdrf3T+YrJ8iO31mBIl2qUJxknnBrai/1Y+p/nRFt7k1YRjbl6oj2t/dP5ija390/mKjl
+1CKKWRHSXEZAdwuVXIz/AFq1mqMiHa390/mKNrf3T+YqajIz1oAh2t/dP5iipqKAM/UQPtlszmZU
+CvlogSQfl9KDIsd1HdbZGhaLy92wkqQe4xnmr2X/ALq/n/8AWoy/91fz/wDrUAZRSa9VYZTIyGVy
+rsm07QvB6Duf0pohkO6W4WRWuY3EmxSSuMbf0BrXy/8AdX8//rUZf+6v5/8A1qAK+nZFuR5SxgOQ
+NqFAw9cHpSX/APx7z/8AXI/yNWcv/dX8/wD61Q3UUksEoUDcyFQM9Tg0nsVD4kYaYS0ikhEy3IUh
+SiEq3zHg9qkubV7jUDFlofP2hmXoTsc/iMgVNbx6pbwrEltGVXOMsM/zp6NffbbT7VCkaeYcFT32
+N7mpi9EjarT96Uk195RWAqzW8sSpKbhC0SA42dNw9uv0qeW3VRdQ4dIVkRkAQsvTngdRmp724gvP
+J+zeZJNvYRSxY+RgMkEkgYI7dxQr6vtG61iBxzyP/iqpuxlCHN1K9uWOoWe6IRHyj8gGMferdi/1
+Y+p/nWTDb30uoxT3EKoFBBIYeh9/etVQ6rjCn8aUeppWsuVX2RR+yNcXd4rySJCzLlQAN/yjv/hS
+G2ZjfyRx/v8AJETEcj5B0rQy/wDdX8//AK1GX/ur+f8A9aqMDIaIMsn2OKSJPs5D4jIy2RgY7nrz
+701Ykkil2RiMvJFmJFYbRu68ge9bDqZEKOoKsMH5iKZDAsBYxpy3VmcsT+JoAytTtr9bhV08FIAg
++WMhQDk54orZy/8AdX8//rUUAOoppPzEelGaAHUU3NGaAHUU3NGaAHVFc2sN3GEnUsoOcBiOxHb2
+Jp+aM0AUpdMDXSyROkcYaNjHszyh4I544wOnar9NzRmgB1FNzRmgB1FNzRmgB1FNzRu5HvQA6iii
+gCJzhz9BTd1E5w35VDuoAm3471Xhvlkid5B5YXnk5yp6GkmHmxNHu27hgn2qBrRMny2KZUA9W5By
+Dye39aALC3qkyFgyhSAAVO4kj061Jb3HnIWxjDEcjHQ1UMDlt5mHmbw4OzgcYxjPofWpYUMcZUvu
+JYkkDHU0ATpcI7FRuDYzhlK8fjTXu4kkKMTkYz8pIGemT0qrb2/kyByyk7dvCYJ9yc8mnyRB/N+f
+HmY7dMUAWPtUe/Zk5zjO04z6Z6ZpPtkPaT+EN0PQ9KrJbqkpceXyxbmPLZP+1mmpaKpT5z8r7unU
+cYH4YH5UAXpJ0j27icscAAEk/gKYbtF3FjgALjg5OenGKhnTzlAyvBz8y5/LkYqJ4Cq7ldncbcHA
+JyO/J560AWvtkWBy+SSoGxs5HtipUlWRA6nKkZBqjBG2VkkOG3M2MevHrU0K+VGEznGeaALO6lVs
+uv1qDdT4TmQUAWqKKKAK11kEHBI9hVfPs3/fJrRJA603cPQ/98mgChn2b/vk0Z9m/wC+TV/cPQ/9
+8mjcPQ/98mgChn2b/vk0Z9m/75NX9w9D/wB8mjcPQ/8AfJoAoZ9m/wC+TRn2b/vk1f3D0P8A3yaN
+w9D/AN8mgChn2b/vk0Z9m/75NX9w9D/3yaNw9D/3yaAKGfZv++TRn2b/AL5NX9w9D/3yaNw9D/3y
+aAKGfZv++TRn2b/vk1f3D0P/AHyaNw9D/wB8mgChn2b/AL5NS2wJlzg4HqKtbh6H/vk0bh6H/vk0
+AOopN49/++TRQAH74+h/pS0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f11b16c0-60ac-42af-b899-affb11f0f1b4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8e2dee90-68dd-4a30-b812-5c98101cce42"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']//tabpage[@name='Signs']/button[@name='Add a new sign']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2e7177cd-7ce9-4b75-a14b-16cf2fe839e2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8e2dee90-68dd-4a30-b812-5c98101cce42"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']//tabpage[@name='Signs']/button[@name='Add a new sign']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Add a new sign
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="1dc48907-be70-4f4f-be22-68bc003be61e"
+	name="ObjectRepository"
+	relativepath="..\..\ObjectRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ObjectRepository"
+		namespace="Ragnarok">
+		</codegen>
+		<rootfolder
+		id="62145fc8-aa5f-4b62-b8c4-14f257428859"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Open_ScreenSign.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

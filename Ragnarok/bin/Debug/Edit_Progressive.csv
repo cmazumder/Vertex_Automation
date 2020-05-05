@@ -1,0 +1,6 @@
+txt_ProgressiveName,txt_RunawayMeterThreshold,TestCase_Action
+Progressive_1,,Pass
+Progressive_LongProgName,,Pass
+Lorem ipsum dolor sit amet consectetuer adipiscin 1,,Pass
+Lorem ipsum dolor sit amet consectetuer adipiscing eli,,Fail
+,,Fail
