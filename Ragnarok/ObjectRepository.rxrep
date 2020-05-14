@@ -27535,6 +27535,7 @@ WyDkD2UxQWO4gENMAAAAAElFTkSuQmCC
 			id="3003fa51-c8a3-4731-831a-f90cc2f5b3a4"
 			isrooted="True"
 			name="VertexShellMainForm"
+			refimgid="121c814d-f278-468f-b1fa-f3fc17fabbc8"
 			refpath="/form[@controlname='VertexShellMainForm']"
 			searchtimeout="30000ms"
 			usecache="True">
@@ -27703,9 +27704,8 @@ BqEoyg+1Wn2g1WqD943GLzR0h3ydF21IpfoJeRjS6KcbGLQAAAAASUVORK5CYII=
 				id="0e77db01-4839-4d05-be9b-acab0a5b5e9a"
 				name="ButtonStartController"
 				refimgid="9b00134b-859d-4fa7-9186-85fb091a922f"
-				refpath="/form[@controlname='ControllerSetup']/tabpagelist/tabpage[@controlname='tabPage1']/container[@controlname='groupBoxController']/button[@controlname='buttonStartController']"
 				searchtimeout="30000ms">
-					/form[@controlname='ControllerSetup']/?/?/tabpage[@controlname='tabPage1']/?/?/button[@controlname='buttonStartController']
+					/form[@controlname='ControllerSetup']/tabpagelist[@controlname='tabControlControllerConfig']/tabpage[@controlname='tabPageServiceControl']/?/?/button[@controlname='buttonStartController']
 				</item>
 				<item
 				addcaps="button,control,nativewindow"
@@ -27713,9 +27713,8 @@ BqEoyg+1Wn2g1WqD943GLzR0h3ydF21IpfoJeRjS6KcbGLQAAAAASUVORK5CYII=
 				id="0b6598a0-38bb-4391-9e2d-411776058abc"
 				name="ButtonStopController"
 				refimgid="39b9f6e5-1410-40ed-97e0-284ae3b646a8"
-				refpath="/form[@controlname='ControllerSetup']/tabpagelist[@controlname='tabControl1']/tabpage[@controlname='tabPage1']/container[@controlname='groupBoxController']/button[@controlname='buttonStopController']"
 				searchtimeout="30000ms">
-					/form[@controlname='ControllerSetup']/?/?/tabpage[@controlname='tabPage1']/?/?/button[@controlname='buttonStopController']
+					/form[@controlname='ControllerSetup']/tabpagelist[@controlname='tabControlControllerConfig']/tabpage[@controlname='tabPageServiceControl']/?/?/button[@controlname='buttonStopController']
 				</item>
 				<item
 				addcaps="button,control,nativewindow"
@@ -27854,19 +27853,8 @@ GORSxAAAAABJRU5ErkJggg==
 				id="d213baaf-b261-44e9-a8c5-dbc587e140cf"
 				name="ButtonRAMClear"
 				refimgid="49ca498f-fb98-4bd3-95bf-fe2d76ccda8c"
-				refpath="/form[@controlname='DatabaseManagement']/tabpagelist/tabpage[@controlname='tabPageRecovery']/button[@controlname='buttonRAMClear']"
 				searchtimeout="30000ms">
-					/form[@controlname='DatabaseManagement']/?/?/tabpage[@controlname='tabPageRecovery']/button[@controlname='buttonRAMClear']
-				</item>
-				<item
-				addcaps="button,control,nativewindow"
-				capname="button"
-				id="d8ed5259-f2a3-4bcd-a862-0a1808a83da9"
-				name="ButtonApply"
-				refimgid="c0dd3f69-cc2e-49de-97f8-afcb870319aa"
-				refpath="/form[@controlname='DatabaseManagement']/button[@controlname='buttonApply']"
-				searchtimeout="30000ms">
-					/form[@controlname='DatabaseManagement']/button[@controlname='buttonApply']
+					/form[@controlname='DatabaseManagement']/tabpagelist[@controlname='tabControl']/tabpage[@controlname='tabPageRecovery']/?/?/button[@controlname='buttonRAMClear']
 				</item>
 				<item
 				addcaps="container,control,nativewindow"
@@ -27884,9 +27872,28 @@ GORSxAAAAABJRU5ErkJggg==
 				id="84d47da6-9ede-4c03-9ec6-f6ea13b52789"
 				name="ChkClearPlugins"
 				refimgid="4683b790-d5f6-41df-b26f-183f4cf4784d"
-				refpath="/form[@controlname='DatabaseManagement']/tabpagelist/tabpage[@controlname='tabPageRecovery']/checkbox[@controlname='chkClearPlugins']"
 				searchtimeout="30000ms">
-					/form[@controlname='DatabaseManagement']/?/?/tabpage[@controlname='tabPageRecovery']/checkbox[@controlname='chkClearPlugins']
+					/form[@controlname='DatabaseManagement']/tabpagelist[@controlname='tabControl']/tabpage[@controlname='tabPageRecovery']/?/?/checkbox[@controlname='chkClearPlugins']
+				</item>
+				<item
+				addcaps="tabpage,accessible"
+				capname="tabpage"
+				id="78c5beda-54c1-43b5-8340-a9e97596291c"
+				name="Database_BtxActions"
+				refimgid="0d7e3d65-03e8-4d13-b65f-cd873ff5849e"
+				refpath="/form[@controlname='DatabaseManagement']/tabpagelist[@controlname='tabControl']/tabpage[@accessiblename='Actions']"
+				searchtimeout="30000ms">
+					/form[@controlname='DatabaseManagement']/?/?/tabpage[@accessiblename='Actions']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="8f994156-a2b1-42e9-aa78-18525153eb3e"
+				name="ButtonApply"
+				refimgid="60dcf95d-00b7-40ef-b790-583ea99b46a8"
+				refpath="/form[@controlname='DatabaseManagement']/container[@controlname='panelOkCancel']/button[@controlname='buttonApply']"
+				searchtimeout="30000ms">
+					/form[@controlname='DatabaseManagement']/?/?/button[@controlname='buttonApply']
 				</item>
 				<basepath>
 					/form[@controlname='DatabaseManagement']
@@ -28332,7 +28339,7 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 			id="3cfa17b7-b9cf-4941-811c-be3d966a26fb"
 			isrooted="True"
 			name="AristocratVertexWebUI"
-			refimgid="82304793-633b-4934-b570-e0884126d74e"
+			refimgid="ea75849b-1f52-4c82-b94d-2b7ab7e73650"
 			refpath="/dom[@domain='localhost']"
 			searchtimeout="30000ms"
 			usecache="False">
@@ -28430,6 +28437,16 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 					refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object[@type='application/x-silverlight-2']/form[@name='Silverlight Control']/list[@automationid='navigationControl']/listitem[8]/text[@name='Reports']"
 					searchtimeout="30000ms">
 						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/list[@automationid='navigationControl']/?/?/text[@name='Reports']
+					</item>
+					<item
+					addcaps="list,uiautomation"
+					capname="list"
+					id="85f4f7fa-f868-4e68-8246-b19456bf8673"
+					name="NavigationControl"
+					refimgid="05bfdd17-de20-492f-87ce-88e446bdf67d"
+					refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/list[@automationid='navigationControl']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/list[@automationid='navigationControl']
 					</item>
 					<basepath>
 						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/list[@automationid='navigationControl']
@@ -28809,9 +28826,8 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 							id="d98eeedb-bf32-4e45-9c7a-aa06f4d9f573"
 							name="CustomProgressive"
 							refimgid="51d6f165-2abb-4157-afe4-c8889589e374"
-							refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[2]/table[3]/element/element/element[@name='Custom Progressive']"
 							searchtimeout="30000ms">
-								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/table[3]//element[@name='Custom Progressive']
+								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/table[3]//element[@name='Custom Progressive' and @iskeyboardfocusable='True']
 							</item>
 							<item
 							addcaps="text,uiautomation"
@@ -28822,6 +28838,36 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 							refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[2]/tabpagelist/tabpage[@name='Signs']/table/element/element/element[3]/link/text[@name='Edit']"
 							searchtimeout="30000ms">
 								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/?/?/tabpage[@name='Signs']/table[@name='DataGrid']//link[@name='Edit']/text[@name='Edit']
+							</item>
+							<item
+							addcaps="text,uiautomation"
+							capname="text"
+							id="c4abb413-2ed8-466f-a0ca-f898115360e4"
+							name="Edit2"
+							refimgid="fc1328f5-f65f-4c7e-b98f-c1c8863c8901"
+							refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[3]/tabpagelist/tabpage[@name='Signs']/table/element/element/element[3]/link/text[@name='Edit']"
+							searchtimeout="30000ms">
+								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/?/?/tabpage[@name='Signs']/table[@name='DataGrid']//link[@name='Edit']/text[@name='Edit']
+							</item>
+							<item
+							addcaps="link,uiautomation,uiautomationinvoke"
+							capname="link"
+							id="feb9f26a-d0e8-41d2-a930-cdc8708122e7"
+							name="Edit3"
+							refimgid="38e30901-f9bc-4e1b-999c-e09be262c5a0"
+							refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[3]/tabpagelist/tabpage[@name='Signs']/table/element/element/element[3]/link[@name='Edit']"
+							searchtimeout="30000ms">
+								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/?/?/tabpage[@name='Signs']/table[@name='DataGrid']/element[@automationid='RowsPresenter']//link[@name='Edit']
+							</item>
+							<item
+							addcaps="button,uiautomation,uiautomationinvoke"
+							capname="button"
+							id="8b3c84bb-af38-4c35-bc3c-d54cd885a6ae"
+							name="AddANewGame"
+							refimgid="283be5a2-1795-401e-9750-99c4ca07de6f"
+							refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[2]/button[@name='Add a new game']"
+							searchtimeout="30000ms">
+								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']/button[@name='Add a new game']
 							</item>
 							<basepath>
 								/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/container[@classname='ScrollViewer']
@@ -30862,6 +30908,36 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 					searchtimeout="30000ms">
 						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/picture[1]
 					</item>
+					<item
+					addcaps="container,uiautomation"
+					capname="container"
+					id="402536e9-05b0-49e8-b04a-534330446eb8"
+					name="ContentElement_SignName"
+					refimgid="aa7d1d9d-f08d-42eb-afdd-8105c8ddb9b0"
+					refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object[@type='application/x-silverlight-2']/form[@name='Silverlight Control']/text[9]/container[@automationid='ContentElement']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/text[9]/container[@automationid='ContentElement']
+					</item>
+					<item
+					addcaps="container,uiautomation"
+					capname="container"
+					id="1af40f83-6a29-470e-ade4-947fa5cb8af7"
+					name="ContentElement2"
+					refimgid="b9d5226e-af46-4223-bea8-10dff3deddda"
+					refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/text[10]/container[@automationid='ContentElement']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/text[10]/container[@automationid='ContentElement']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="33cbdcab-e841-49f9-baa4-da495e705090"
+					name="RowsPresenter"
+					refimgid="5f864e39-93e3-4476-af99-1466544db76b"
+					refpath="/dom[@domain='localhost']//div[#'silverlightControlHost']/object/form/container[3]/tabpagelist/tabpage[@name='Signs']/table/element[@automationid='RowsPresenter']"
+					searchtimeout="30000ms">
+						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']//tabpage[@name='Signs']/table[@name='DataGrid']/element[@automationid='RowsPresenter']
+					</item>
 					<basepath>
 						/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']
 					</basepath>
@@ -31001,7 +31077,7 @@ GORSxAAAAABJRU5ErkJggg==
 		<var
 		id="5a566940-b119-4738-aa8f-5fc24ce2e9f8"
 		name="txt_SignName">
-			test name
+			SIGN NAME
 		</var>
 	</variables>
 </repository>

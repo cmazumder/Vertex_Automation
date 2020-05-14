@@ -79,8 +79,15 @@ namespace Ragnarok.UserInterface.Game
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='False') on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_save'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_saveInfo, new RecordItemIndex(0));
-            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_saveInfo, "Enabled", "False");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_save' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_saveInfo, new RecordItemIndex(0));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.btx_sign_save.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Cancel'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.CancelInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.CancelInfo, "Valid", "True");
             Delay.Milliseconds(100);
             
         }

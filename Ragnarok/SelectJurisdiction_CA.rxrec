@@ -31,7 +31,7 @@ rxversion="9.0">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="122;16"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="42f40f35-7d7d-42c1-9778-a09cbb9cf85e"
@@ -337,7 +337,7 @@ FABRRRQAUUUUAf/Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="246;11"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="964d2b77-8bec-4566-8479-132edaa9e8e5"
@@ -616,7 +616,7 @@ UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="77;7"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="976ad369-1a4b-4fa5-b815-1a7346b9c080"
@@ -870,7 +870,7 @@ A//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="6;9"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="7de15ea9-5d73-42cb-8546-3ac14413d63d"
@@ -1246,154 +1246,6 @@ OcdfoaquSl7+4E252HmKUOwjH3t2MA/j+FQxJcBRIRJ5iwRE5zliC24e5x/OkM//2Q==
 				California[CALIFOR]
 			</matchvalue>
 		</validationitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="29;9"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="9cbf1f45-7662-4278-8b7c-37027ef92fe7"
-		sx="1236"
-		sy="110"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="e711b7dc-ed95-4270-92bc-e77ec7e48a68"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="1207,101,49,20"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Press
-					</attribute>
-					<attribute
-					name="accessibledescription"
-					type="System.String">
-						Closes the window
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					/form[@controlname='HtmlDisplay']/?/?/button[@accessiblename='Close']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="d1ab8b0a-c687-460e-addd-6abe8adffad8">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAC6ALoDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmqKKK
-ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKn8u3/56y/9+x/8
-VR5dv/z1l/79j/4qgCCirHl2/wDz1l/79j/4qjyrf/ntL/37H/xVAFeirHlW/wDz2l/79j/4ql8m
-3/57Sf8Afsf/ABVAFairPkW//PaT/v2P/iqXyIP+e0n/AH7H/wAVQBVoq19ng/57Sf8Afsf/ABVL
-9ng/57Sf9+x/8VQBUoq6LSEjPnycH/nmPQn+97Un2a3/AOe8v/fof/FUAU6KufZbf/nvJ/36H/xV
-H2W3/wCe8n/fof8AxVAFOirps4FxmeT/AL9D1/3qT7LB/wA95P8Av0P/AIqgCnRVz7LB/wA95P8A
-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
-iiigAooooAKKKKACiiigD//Z
-			</helperscreenshot>
-		</mouseitem>
 	</recorditems>
 	<repository
 	id="1dc48907-be70-4f4f-be22-68bc003be61e"

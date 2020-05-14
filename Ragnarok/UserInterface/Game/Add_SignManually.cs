@@ -41,8 +41,8 @@ namespace Ragnarok.UserInterface.Game
         /// </summary>
         public Add_SignManually()
         {
-            txt_SignName = "test name";
-            txt_sign_friendlyName = "test name";
+            txt_SignName = "test friendly name";
+            txt_sign_friendlyName = "test sign name";
         }
 
         /// <summary>
@@ -111,33 +111,69 @@ namespace Ragnarok.UserInterface.Game
             repo.Vertex.AristocratVertexWebUI.Form143077288.Games.CheckBox_Sign_Edit.Click("5;15");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(2));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignName' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignNameInfo, new RecordItemIndex(2));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignName.Click();
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$txt_SignName' on item 'Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignName'.", repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignNameInfo, new RecordItemIndex(3));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement_SignName.Element.SetAttributeValue("Text", txt_SignName);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(4));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name.Click();
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$txt_SignName' on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(5));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name.Element.SetAttributeValue("Text", txt_SignName);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(6));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl.Click();
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$txt_sign_friendlyName' on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(7));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl.Element.SetAttributeValue("Text", txt_sign_friendlyName);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(8));
+            //repo.Vertex.AristocratVertexWebUI.Self.EnsureVisible();
+            //Keyboard.Press("{Tab}");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_SignName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(9));
+            //Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, "Text", txt_SignName);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_sign_friendlyName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(10));
+            //Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, "Text", txt_sign_friendlyName);
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ContentElement2' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement2Info, new RecordItemIndex(11));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.ContentElement2.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$txt_SignName' on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(3));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name.Element.SetAttributeValue("Text", txt_SignName);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(4));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$txt_sign_friendlyName' on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(5));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl.Element.SetAttributeValue("Text", txt_sign_friendlyName);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$txt_SignName' with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(12));
             repo.Vertex.AristocratVertexWebUI.Self.EnsureVisible();
-            Keyboard.Press("{Tab}");
+            Keyboard.Press(txt_SignName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_SignName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_name'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, new RecordItemIndex(7));
-            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.Sign_nameInfo, "Text", txt_SignName);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl' at UpperRight.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(13));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl.Click(Location.UpperRight);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(14));
+            Keyboard.PrepareFocus(repo.Vertex.AristocratVertexWebUI.Self);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_sign_friendlyName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrl'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, new RecordItemIndex(8));
-            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.txtSignUrlInfo, "Text", txt_sign_friendlyName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(15));
+            repo.Vertex.AristocratVertexWebUI.Self.EnsureVisible();
+            Keyboard.Press("{Back}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$txt_sign_friendlyName' with focus on 'Vertex.AristocratVertexWebUI'.", repo.Vertex.AristocratVertexWebUI.SelfInfo, new RecordItemIndex(16));
+            repo.Vertex.AristocratVertexWebUI.Self.EnsureVisible();
+            Keyboard.Press(txt_sign_friendlyName);
             Delay.Milliseconds(0);
             
         }

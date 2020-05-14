@@ -79,45 +79,29 @@ namespace Ragnarok.UserInterface.Configuration
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface1' at 132;20.", repo.Vertex.VertexShellMainForm.UserInterface1Info, new RecordItemIndex(0));
-            repo.Vertex.VertexShellMainForm.UserInterface1.Click("132;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.Configuration' at Center.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.ConfigurationInfo, new RecordItemIndex(0));
+            repo.Vertex.AristocratVertexWebUI.NavigationControl1.Configuration.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.Configuration' at 46;9.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.ConfigurationInfo, new RecordItemIndex(1));
-            repo.Vertex.AristocratVertexWebUI.NavigationControl1.Configuration.Click("46;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControlInfo, new RecordItemIndex(1));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl' at 581;4.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControlInfo, new RecordItemIndex(2));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl.Click("581;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncrease' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncreaseInfo, new RecordItemIndex(2));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncrease.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncrease' at 10;119.", repo.Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncreaseInfo, new RecordItemIndex(3));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.VerticalLargeIncrease.Click("10;119");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidationInfo, new RecordItemIndex(3));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation' at 83;7.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidationInfo, new RecordItemIndex(4));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation.Click("83;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.False1' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.False1Info, new RecordItemIndex(4));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.False1.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.False1' at 13;8.", repo.Vertex.AristocratVertexWebUI.Form143077288.False1Info, new RecordItemIndex(5));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.False1.Click("13;8");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidation' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidationInfo, new RecordItemIndex(5));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidation.Click();
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidation' at 12;14.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidationInfo, new RecordItemIndex(6));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TurnoverValidation.Click("12;14");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexAdministrator.ButtonClose' at 15;11.", repo.Vertex.VertexAdministrator.ButtonCloseInfo, new RecordItemIndex(7));
-            repo.Vertex.VertexAdministrator.ButtonClose.Click("15;11");
-            Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Save1' at 1;9.", repo.Vertex.AristocratVertexWebUI.Form143077288.Save1Info, new RecordItemIndex(8));
-            //repo.Vertex.AristocratVertexWebUI.Form143077288.Save1.Click("1;9");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexAdministrator.ButtonClose' at 13;10.", repo.Vertex.VertexAdministrator.ButtonCloseInfo, new RecordItemIndex(9));
-            //repo.Vertex.VertexAdministrator.ButtonClose.Click("13;10");
-            //Delay.Milliseconds(200);
             
         }
 

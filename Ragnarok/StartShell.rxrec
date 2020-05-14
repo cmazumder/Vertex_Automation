@@ -24,6 +24,10 @@ rxversion="9.0">
 	namespace="Ragnarok">
 	</codegen>
 	<variables>
+		<var
+		id="025ec301-1b71-4397-b1aa-c4934d8ea7dc"
+		name="StartAutProcessIDVar">
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -33,6 +37,10 @@ rxversion="9.0">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
 			</bindings>
 			<filename>
 				D:\Shell\VertexShell.exe
@@ -44,6 +52,22 @@ rxversion="9.0">
 				/windowed /suppressfilecheck /suppressups
 			</args>
 		</runapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="$StartAutProcessIDVar"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="a8235e0b-50d2-4e25-a58e-15ec6f3e9cb4">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="1dc48907-be70-4f4f-be22-68bc003be61e"

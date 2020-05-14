@@ -79,44 +79,40 @@ namespace Ragnarok.UserInterface.EGM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface' at 122;13.", repo.Vertex.VertexShellMainForm.UserInterfaceInfo, new RecordItemIndex(0));
-            repo.Vertex.VertexShellMainForm.UserInterface.Click("122;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.EGMs' at Center.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.EGMsInfo, new RecordItemIndex(0));
+            repo.Vertex.AristocratVertexWebUI.NavigationControl1.EGMs.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.EGMs' at 20;11.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.EGMsInfo, new RecordItemIndex(1));
-            repo.Vertex.AristocratVertexWebUI.NavigationControl1.EGMs.Click("20;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManually' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManuallyInfo, new RecordItemIndex(1));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManually.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManually' at 53;6.", repo.Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManuallyInfo, new RecordItemIndex(2));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.AddAnEgmManually.Click("53;6");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ATI{LShiftKey down}_{LShiftKey up}!234'.", new RecordItemIndex(3));
-            Keyboard.Press("ATI{LShiftKey down}_{LShiftKey up}!234");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ATI_1234'.", new RecordItemIndex(2));
+            Keyboard.Press("ATI_1234");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplay' at 285;13.", repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplayInfo, new RecordItemIndex(4));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplay.Click("285;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplay' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplayInfo, new RecordItemIndex(3));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.drpDisplay.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplay' at 36;12.", repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplayInfo, new RecordItemIndex(5));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplay.Click("36;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplay' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplayInfo, new RecordItemIndex(4));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Legacy_Signs.AristocratVertexUIModelSignDisplay.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save' at 49;11.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.SaveInfo, new RecordItemIndex(6));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save.Click("49;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.SaveInfo, new RecordItemIndex(5));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgms' at 103;11.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgmsInfo, new RecordItemIndex(7));
-            //repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgms.Click("103;11");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgms' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgmsInfo, new RecordItemIndex(6));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.AddNewEgms.Click();
             //Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBox' at 6;5.", repo.Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBoxInfo, new RecordItemIndex(8));
-            //repo.Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBox.Click("6;5");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBox' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBoxInfo, new RecordItemIndex(7));
+            //repo.Vertex.AristocratVertexWebUI.Form143077288.ATI_Gen7_CheckBox.Click();
             //Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save' at 50;10.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.SaveInfo, new RecordItemIndex(9));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save.Click("50;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.SaveInfo, new RecordItemIndex(8));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Save.Click();
             Delay.Milliseconds(200);
             
         }

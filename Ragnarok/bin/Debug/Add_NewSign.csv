@@ -1,9 +1,6 @@
-txt_SignName,txt_sign_friendlyName,TestCase_Action
-ATI_SIGN_0014C603CF3D,Nice friendly sign name,Pass
-ATI_SIGN_LongSignName,,Pass
-Lorem ipsum dolor sit amet consectetuer adipiscin 1,,Pass
-Lorem ipsum dolor sit amet consectetuer adipiscing eli,,Fail
-,,Fail
-ATI_SIGN_0014C603CF3D,Lorem ipsum dolor sit amet consectetuer adipiscing eli,Fail
-ATI_SIGN_1,Lorem ipsum dolor sit amet consectetuer adipiscin 1,Pass
-,,Fail
+txt_SignName,TestCase_Action
+ATI_SIGN_0014C603CF3D,Pass
+ATI_SIGN_LONGSIGNNAME,Pass
+LOREM_IPSUM_DOLOR_SIT_AMET_CONSECTETUER_ADIPISCIN_,Pass
+LOREM_IPSUM_DOLOR_SIT_AMET_CONSECTETUER_ADIPISCING_ELI,Fail
+,Fail

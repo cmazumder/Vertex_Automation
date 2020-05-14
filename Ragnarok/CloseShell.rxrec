@@ -24,10 +24,14 @@ rxversion="9.0">
 	namespace="Ragnarok">
 	</codegen>
 	<variables>
+		<var
+		id="5929a592-ac63-4b12-81d7-519124cf3b66"
+		name="CloseAutProcessIDVar">
+		</var>
 	</variables>
 	<recorditems>
 		<closeapprecorditem
-		enabled="True"
+		enabled="False"
 		graceperiod="30000ms"
 		method="CloseWindow"
 		optional="False"
@@ -61,38 +65,38 @@ rxversion="9.0">
 					name="appicon"
 					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
 						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
-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
-L7WAgL8BQZs8jNECN3sAAAAASUVORK5CYII=
+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
 					</attribute>
 					<attribute
 					name="state"
@@ -1089,6 +1093,37 @@ L7WAgL8BQZs8jNECN3sAAAAASUVORK5CYII=
 					/form[@controlname='VertexShellMainForm']
 				</path>
 			</info>
+		</closeapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="e50ec7ba-8d2a-4cc0-9c22-7b657e2aba19">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="30000ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="281f66c3-ebb0-4a72-ab47-d75c038fe3f9">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
 		</closeapprecorditem>
 	</recorditems>
 	<repository

@@ -8,9 +8,14 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{DC7C87CA-B18D-4B22-88FE-6D792D628FD8}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>75a04c11-f93d-4688-a6d3-edea0456167a</string>
+      <string>0509454b-eac6-4d37-b29b-c930d2c793ba</string>
+      <string>ae713abb-c3b1-4483-bb21-82548df2770e</string>
+      <string>93513a3d-bcd0-4374-969d-1de75d0a2932</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>7da875cf-5347-44ba-b358-52576e48352b</string>
       <string>d307a418-30f3-4266-bbfc-8dc78610a4e5</string>
+      <string>34085382-0581-4428-811e-ca55edb115b5</string>
       <string>7f6968dd-8c63-4cf0-b1b9-cf22eb6352ee</string>
       <string>72452fb4-cd37-4897-a91c-7a6f36fe0d5b</string>
       <string>cd0a0a2c-fe03-4c50-b104-310b9b41db42</string>
@@ -20,6 +25,6 @@
       <string>7f788c18-962c-41ab-b591-9c3122512c5e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Ragnarok[Ragnarok[UserInterface[Game[]Progressive[]]]]]&#xD;&#xA;Solution Ragnarok\Ragnarok\Ragnarok.rxtst&#xD;&#xA;Solution Ragnarok\Ragnarok\UserInterface\Progressive\NavigateToProgressive.rxrec" />
+  <ProjectBrowserState value="[Solution Ragnarok[Ragnarok[]]]&#xD;&#xA;Solution Ragnarok\Ragnarok\RamClear.rxrec&#xD;&#xA;Solution Ragnarok" />
   <StartupProject value="{DC7C87CA-B18D-4B22-88FE-6D792D628FD8}" />
 </Properties>

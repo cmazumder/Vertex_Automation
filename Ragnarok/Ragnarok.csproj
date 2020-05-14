@@ -433,6 +433,30 @@
       <UserCode>true</UserCode>
       <id>c661ca11-930e-4823-b729-f9f8726cd4da</id>
     </Compile>
+    <Compile Include="UserInterface\Game\TEST_AddGame.cs">
+      <BoundTo>969851a8-1ed7-49eb-a17e-154050212c28</BoundTo>
+      <DependentUpon>TEST_AddGame.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a09b2dec-b66a-4837-a6f0-2a83e94972bc</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\TEST_AddGame.UserCode.cs">
+      <BoundTo>969851a8-1ed7-49eb-a17e-154050212c28</BoundTo>
+      <DependentUpon>TEST_AddGame.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f174eb0-17f5-4b53-8988-49dbda4f633e</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\TEST_AddSign.cs">
+      <BoundTo>f9708d24-8123-4f06-a60d-a842343a1634</BoundTo>
+      <DependentUpon>TEST_AddSign.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>976ffc1b-5bdf-4bb3-98b5-7cf498138429</id>
+    </Compile>
+    <Compile Include="UserInterface\Game\TEST_AddSign.UserCode.cs">
+      <BoundTo>f9708d24-8123-4f06-a60d-a842343a1634</BoundTo>
+      <DependentUpon>TEST_AddSign.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b184135e-e7bc-4002-ae71-f4bb53fcaa0b</id>
+    </Compile>
     <Compile Include="UserInterface\Game\Validate_Sign_FriendlyName.cs">
       <BoundTo>90f4af18-dd14-4759-9dab-4d41de398a45</BoundTo>
       <DependentUpon>Validate_Sign_FriendlyName.rxrec</DependentUpon>
@@ -718,6 +742,16 @@
       <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
       <id>9c6635d5-618a-4db1-9571-b2008b437f19</id>
       <recordtableid>192326c5-e3c5-4ca6-91fe-860018e30930</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\TEST_AddGame.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>969851a8-1ed7-49eb-a17e-154050212c28</id>
+      <recordtableid>c86c1f74-a867-490d-84d4-918b14d641e3</recordtableid>
+    </None>
+    <None Include="UserInterface\Game\TEST_AddSign.rxrec">
+      <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>
+      <id>f9708d24-8123-4f06-a60d-a842343a1634</id>
+      <recordtableid>34e6fce9-8fc8-41d3-b5a6-3ceb7f9e3097</recordtableid>
     </None>
     <None Include="UserInterface\Game\Validate_Sign_FriendlyName.rxrec">
       <BoundTo>ed024bde-e83d-4faa-aa94-46865797d662</BoundTo>

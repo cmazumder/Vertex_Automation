@@ -79,39 +79,34 @@ namespace Ragnarok
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.Database' at 103;15.", repo.Vertex.VertexShellMainForm.DatabaseInfo, new RecordItemIndex(0));
-            repo.Vertex.VertexShellMainForm.Database.Click("103;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.Database' at Center.", repo.Vertex.VertexShellMainForm.DatabaseInfo, new RecordItemIndex(0));
+            repo.Vertex.VertexShellMainForm.Database.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.BackupRestore' at 56;8.", repo.Vertex.DatabaseManagement.BackupRestoreInfo, new RecordItemIndex(1));
-            repo.Vertex.DatabaseManagement.BackupRestore.Click("56;8");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.Database_BtxActions' at Center.", repo.Vertex.DatabaseManagement.Database_BtxActionsInfo, new RecordItemIndex(1));
+            repo.Vertex.DatabaseManagement.Database_BtxActions.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ButtonRAMClear' at 48;8.", repo.Vertex.DatabaseManagement.ButtonRAMClearInfo, new RecordItemIndex(2));
-            //repo.Vertex.DatabaseManagement.ButtonRAMClear.Click("48;8");
-            //Delay.Milliseconds(200);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.RAMClear.ButtonYes' at 39;10.", repo.Vertex.RAMClear.ButtonYesInfo, new RecordItemIndex(3));
-            //repo.Vertex.RAMClear.ButtonYes.Click("39;10");
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ChkClearPlugins' at 6;7.", repo.Vertex.DatabaseManagement.ChkClearPluginsInfo, new RecordItemIndex(4));
-            repo.Vertex.DatabaseManagement.ChkClearPlugins.Click("6;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ChkClearPlugins' at Center.", repo.Vertex.DatabaseManagement.ChkClearPluginsInfo, new RecordItemIndex(2));
+            repo.Vertex.DatabaseManagement.ChkClearPlugins.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ButtonRAMClear' at 48;9.", repo.Vertex.DatabaseManagement.ButtonRAMClearInfo, new RecordItemIndex(5));
-            repo.Vertex.DatabaseManagement.ButtonRAMClear.Click("48;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ButtonRAMClear' at Center.", repo.Vertex.DatabaseManagement.ButtonRAMClearInfo, new RecordItemIndex(3));
+            repo.Vertex.DatabaseManagement.ButtonRAMClear.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FactoryReset.ButtonYes' at 41;9.", repo.FactoryReset.ButtonYesInfo, new RecordItemIndex(6));
-            repo.FactoryReset.ButtonYes.Click("41;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FactoryReset.ButtonYes' at Center.", repo.FactoryReset.ButtonYesInfo, new RecordItemIndex(4));
+            repo.FactoryReset.ButtonYes.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'Vertex.ProgressDialog'", repo.Vertex.ProgressDialog.SelfInfo, new ActionTimeout(60000), new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to not exist. Associated repository item: 'Vertex.ProgressDialog'", repo.Vertex.ProgressDialog.SelfInfo, new ActionTimeout(60000), new RecordItemIndex(5));
             repo.Vertex.ProgressDialog.SelfInfo.WaitForNotExists(60000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ButtonApply' at 38;7.", repo.Vertex.DatabaseManagement.ButtonApplyInfo, new RecordItemIndex(8));
-            repo.Vertex.DatabaseManagement.ButtonApply.Click("38;7");
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 50s for the attribute 'Enabled' to equal the specified value 'True'. Associated repository item: 'Vertex.DatabaseManagement.ButtonApply'", repo.Vertex.DatabaseManagement.ButtonApplyInfo, new RecordItemIndex(6));
+            repo.Vertex.DatabaseManagement.ButtonApplyInfo.WaitForAttributeEqual(50000, "Enabled", "True");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.DatabaseManagement.ButtonApply' at Center.", repo.Vertex.DatabaseManagement.ButtonApplyInfo, new RecordItemIndex(7));
+            repo.Vertex.DatabaseManagement.ButtonApply.Click();
             Delay.Milliseconds(200);
             
         }

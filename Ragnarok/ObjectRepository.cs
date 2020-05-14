@@ -241,7 +241,7 @@ namespace Ragnarok
             set { _varContact = value; }
         }
 
-        string _txt_SignName = "test name";
+        string _txt_SignName = "SIGN NAME";
 
         /// <summary>
         /// Gets or sets the value of variable txt_SignName.
@@ -88813,8 +88813,8 @@ namespace Ragnarok
             public ControllerSetupAppFolder(RepoGenBaseFolder parentFolder) :
                     base("ControllerSetup", "/form[@controlname='ControllerSetup']", parentFolder, 30000, null, true, "10ad7364-ac2b-4029-acc5-83945d41eaf5", "")
             {
-                _buttonstartcontrollerInfo = new RepoItemInfo(this, "ButtonStartController", "?/?/tabpage[@controlname='tabPage1']/?/?/button[@controlname='buttonStartController']", 30000, null, "0e77db01-4839-4d05-be9b-acab0a5b5e9a");
-                _buttonstopcontrollerInfo = new RepoItemInfo(this, "ButtonStopController", "?/?/tabpage[@controlname='tabPage1']/?/?/button[@controlname='buttonStopController']", 30000, null, "0b6598a0-38bb-4391-9e2d-411776058abc");
+                _buttonstartcontrollerInfo = new RepoItemInfo(this, "ButtonStartController", "tabpagelist[@controlname='tabControlControllerConfig']/tabpage[@controlname='tabPageServiceControl']/?/?/button[@controlname='buttonStartController']", 30000, null, "0e77db01-4839-4d05-be9b-acab0a5b5e9a");
+                _buttonstopcontrollerInfo = new RepoItemInfo(this, "ButtonStopController", "tabpagelist[@controlname='tabControlControllerConfig']/tabpage[@controlname='tabPageServiceControl']/?/?/button[@controlname='buttonStopController']", 30000, null, "0b6598a0-38bb-4391-9e2d-411776058abc");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOk", "button[@controlname='buttonOk']", 30000, null, "570db5e4-f7a8-47ca-b6a0-2bd2440fae1f");
             }
 
@@ -89081,9 +89081,10 @@ namespace Ragnarok
         {
             RepoItemInfo _backuprestoreInfo;
             RepoItemInfo _buttonramclearInfo;
-            RepoItemInfo _buttonapplyInfo;
             RepoItemInfo _groupboxdatabaseInfo;
             RepoItemInfo _chkclearpluginsInfo;
+            RepoItemInfo _database_btxactionsInfo;
+            RepoItemInfo _buttonapplyInfo;
 
             /// <summary>
             /// Creates a new DatabaseManagement  folder.
@@ -89092,10 +89093,11 @@ namespace Ragnarok
                     base("DatabaseManagement", "/form[@controlname='DatabaseManagement']", parentFolder, 30000, null, true, "bfb800e5-bd6a-4397-bb08-b52f2ddce23c", "")
             {
                 _backuprestoreInfo = new RepoItemInfo(this, "BackupRestore", "?/?/tabpage[@accessiblename='Backup/Restore']", 30000, null, "22b1a7cb-ffd1-4238-8445-ad6443033602");
-                _buttonramclearInfo = new RepoItemInfo(this, "ButtonRAMClear", "?/?/tabpage[@controlname='tabPageRecovery']/button[@controlname='buttonRAMClear']", 30000, null, "d213baaf-b261-44e9-a8c5-dbc587e140cf");
-                _buttonapplyInfo = new RepoItemInfo(this, "ButtonApply", "button[@controlname='buttonApply']", 30000, null, "d8ed5259-f2a3-4bcd-a862-0a1808a83da9");
+                _buttonramclearInfo = new RepoItemInfo(this, "ButtonRAMClear", "tabpagelist[@controlname='tabControl']/tabpage[@controlname='tabPageRecovery']/?/?/button[@controlname='buttonRAMClear']", 30000, null, "d213baaf-b261-44e9-a8c5-dbc587e140cf");
                 _groupboxdatabaseInfo = new RepoItemInfo(this, "GroupBoxDatabase", "?/?/tabpage[@controlname='tabPageRecovery']/container[@controlname='groupBoxDatabase']", 30000, null, "65021c71-f7a8-49ae-822b-f4e065634a64");
-                _chkclearpluginsInfo = new RepoItemInfo(this, "ChkClearPlugins", "?/?/tabpage[@controlname='tabPageRecovery']/checkbox[@controlname='chkClearPlugins']", 30000, null, "84d47da6-9ede-4c03-9ec6-f6ea13b52789");
+                _chkclearpluginsInfo = new RepoItemInfo(this, "ChkClearPlugins", "tabpagelist[@controlname='tabControl']/tabpage[@controlname='tabPageRecovery']/?/?/checkbox[@controlname='chkClearPlugins']", 30000, null, "84d47da6-9ede-4c03-9ec6-f6ea13b52789");
+                _database_btxactionsInfo = new RepoItemInfo(this, "Database_BtxActions", "?/?/tabpage[@accessiblename='Actions']", 30000, null, "78c5beda-54c1-43b5-8340-a9e97596291c");
+                _buttonapplyInfo = new RepoItemInfo(this, "ButtonApply", "?/?/button[@controlname='buttonApply']", 30000, null, "8f994156-a2b1-42e9-aa78-18525153eb3e");
             }
 
             /// <summary>
@@ -89171,30 +89173,6 @@ namespace Ragnarok
             }
 
             /// <summary>
-            /// The ButtonApply item.
-            /// </summary>
-            [RepositoryItem("d8ed5259-f2a3-4bcd-a862-0a1808a83da9")]
-            public virtual Ranorex.Button ButtonApply
-            {
-                get
-                {
-                    return _buttonapplyInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonApply item info.
-            /// </summary>
-            [RepositoryItemInfo("d8ed5259-f2a3-4bcd-a862-0a1808a83da9")]
-            public virtual RepoItemInfo ButtonApplyInfo
-            {
-                get
-                {
-                    return _buttonapplyInfo;
-                }
-            }
-
-            /// <summary>
             /// The GroupBoxDatabase item.
             /// </summary>
             [RepositoryItem("65021c71-f7a8-49ae-822b-f4e065634a64")]
@@ -89239,6 +89217,54 @@ namespace Ragnarok
                 get
                 {
                     return _chkclearpluginsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Database_BtxActions item.
+            /// </summary>
+            [RepositoryItem("78c5beda-54c1-43b5-8340-a9e97596291c")]
+            public virtual Ranorex.TabPage Database_BtxActions
+            {
+                get
+                {
+                    return _database_btxactionsInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Database_BtxActions item info.
+            /// </summary>
+            [RepositoryItemInfo("78c5beda-54c1-43b5-8340-a9e97596291c")]
+            public virtual RepoItemInfo Database_BtxActionsInfo
+            {
+                get
+                {
+                    return _database_btxactionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonApply item.
+            /// </summary>
+            [RepositoryItem("8f994156-a2b1-42e9-aa78-18525153eb3e")]
+            public virtual Ranorex.Button ButtonApply
+            {
+                get
+                {
+                    return _buttonapplyInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonApply item info.
+            /// </summary>
+            [RepositoryItemInfo("8f994156-a2b1-42e9-aa78-18525153eb3e")]
+            public virtual RepoItemInfo ButtonApplyInfo
+            {
+                get
+                {
+                    return _buttonapplyInfo;
                 }
             }
         }
@@ -90450,6 +90476,7 @@ namespace Ragnarok
             RepoItemInfo _monitorInfo;
             RepoItemInfo _menu_progressivesInfo;
             RepoItemInfo _reportsInfo;
+            RepoItemInfo _navigationcontrolInfo;
 
             /// <summary>
             /// Creates a new NavigationControl1  folder.
@@ -90466,6 +90493,7 @@ namespace Ragnarok
                 _monitorInfo = new RepoItemInfo(this, "Monitor", "?/?/text[@name='Monitor']", 30000, null, "72217b61-ac33-4475-8bc3-b2ba5faccb39");
                 _menu_progressivesInfo = new RepoItemInfo(this, "menu_Progressives", "?/?/text[@name='Progressives']", 30000, null, "c681b2ef-466f-4480-8924-04722fa82df8");
                 _reportsInfo = new RepoItemInfo(this, "Reports", "?/?/text[@name='Reports']", 30000, null, "ccbb838e-cb36-4fcc-bc3f-66be95a3ae39");
+                _navigationcontrolInfo = new RepoItemInfo(this, "NavigationControl", "", 30000, null, "85f4f7fa-f868-4e68-8246-b19456bf8673");
             }
 
             /// <summary>
@@ -90707,6 +90735,30 @@ namespace Ragnarok
                     return _reportsInfo;
                 }
             }
+
+            /// <summary>
+            /// The NavigationControl item.
+            /// </summary>
+            [RepositoryItem("85f4f7fa-f868-4e68-8246-b19456bf8673")]
+            public virtual Ranorex.List NavigationControl
+            {
+                get
+                {
+                    return _navigationcontrolInfo.CreateAdapter<Ranorex.List>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NavigationControl item info.
+            /// </summary>
+            [RepositoryItemInfo("85f4f7fa-f868-4e68-8246-b19456bf8673")]
+            public virtual RepoItemInfo NavigationControlInfo
+            {
+                get
+                {
+                    return _navigationcontrolInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -90757,6 +90809,9 @@ namespace Ragnarok
             RepoItemInfo _showadvancedsettingsInfo;
             RepoItemInfo _scrollviewerInfo;
             RepoItemInfo _ui_vertexlogoInfo;
+            RepoItemInfo _contentelement_signnameInfo;
+            RepoItemInfo _contentelement2Info;
+            RepoItemInfo _rowspresenterInfo;
 
             /// <summary>
             /// Creates a new Form143077288  folder.
@@ -90806,6 +90861,9 @@ namespace Ragnarok
                 _showadvancedsettingsInfo = new RepoItemInfo(this, "ShowAdvancedSettings", "checkbox[@name='Show Advanced Settings']/text[@name='Show Advanced Settings']", 30000, null, "20f18160-9214-45d4-aa88-c02101b80301");
                 _scrollviewerInfo = new RepoItemInfo(this, "ScrollViewer", "container[2]", 30000, null, "49f95c99-20d8-45f9-ac1c-f6d4d0461c22");
                 _ui_vertexlogoInfo = new RepoItemInfo(this, "UI_VertexLogo", "picture[1]", 30000, null, "e0a4c0d9-1fdb-412e-b7f8-a06edf728a68");
+                _contentelement_signnameInfo = new RepoItemInfo(this, "ContentElement_SignName", "text[9]/container[@automationid='ContentElement']", 30000, null, "402536e9-05b0-49e8-b04a-534330446eb8");
+                _contentelement2Info = new RepoItemInfo(this, "ContentElement2", "text[10]/container[@automationid='ContentElement']", 30000, null, "1af40f83-6a29-470e-ade4-947fa5cb8af7");
+                _rowspresenterInfo = new RepoItemInfo(this, "RowsPresenter", ".//tabpage[@name='Signs']/table[@name='DataGrid']/element[@automationid='RowsPresenter']", 30000, null, "33cbdcab-e841-49f9-baa4-da495e705090");
             }
 
             /// <summary>
@@ -91649,6 +91707,78 @@ namespace Ragnarok
             }
 
             /// <summary>
+            /// The ContentElement_SignName item.
+            /// </summary>
+            [RepositoryItem("402536e9-05b0-49e8-b04a-534330446eb8")]
+            public virtual Ranorex.Container ContentElement_SignName
+            {
+                get
+                {
+                    return _contentelement_signnameInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContentElement_SignName item info.
+            /// </summary>
+            [RepositoryItemInfo("402536e9-05b0-49e8-b04a-534330446eb8")]
+            public virtual RepoItemInfo ContentElement_SignNameInfo
+            {
+                get
+                {
+                    return _contentelement_signnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContentElement2 item.
+            /// </summary>
+            [RepositoryItem("1af40f83-6a29-470e-ade4-947fa5cb8af7")]
+            public virtual Ranorex.Container ContentElement2
+            {
+                get
+                {
+                    return _contentelement2Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContentElement2 item info.
+            /// </summary>
+            [RepositoryItemInfo("1af40f83-6a29-470e-ade4-947fa5cb8af7")]
+            public virtual RepoItemInfo ContentElement2Info
+            {
+                get
+                {
+                    return _contentelement2Info;
+                }
+            }
+
+            /// <summary>
+            /// The RowsPresenter item.
+            /// </summary>
+            [RepositoryItem("33cbdcab-e841-49f9-baa4-da495e705090")]
+            public virtual Ranorex.Unknown RowsPresenter
+            {
+                get
+                {
+                    return _rowspresenterInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RowsPresenter item info.
+            /// </summary>
+            [RepositoryItemInfo("33cbdcab-e841-49f9-baa4-da495e705090")]
+            public virtual RepoItemInfo RowsPresenterInfo
+            {
+                get
+                {
+                    return _rowspresenterInfo;
+                }
+            }
+
+            /// <summary>
             /// The Monitor folder.
             /// </summary>
             [RepositoryFolder("1fe879ca-35b4-4178-9c0c-f0cde83940c9")]
@@ -91801,6 +91931,9 @@ namespace Ragnarok
             RepoItemInfo _progressive_editednameInfo;
             RepoItemInfo _customprogressiveInfo;
             RepoItemInfo _edit1Info;
+            RepoItemInfo _edit2Info;
+            RepoItemInfo _edit3Info;
+            RepoItemInfo _addanewgameInfo;
 
             /// <summary>
             /// Creates a new MonitorTabs  folder.
@@ -91841,8 +91974,11 @@ namespace Ragnarok
                 _scrollviewer1Info = new RepoItemInfo(this, "ScrollViewer1", "container[@classname='ScrollViewer']", 30000, null, "dca30422-9010-4ce8-b6b5-84558288fccb");
                 _editInfo = new RepoItemInfo(this, "Edit", "table[1]//link[@name='Edit']/text[@name='Edit']", 30000, null, "8a1bddba-cab8-4940-86b2-38ae58abf62a");
                 _progressive_editednameInfo = new RepoItemInfo(this, "Progressive_editedName", "table[@name='DataGrid']/?/?/cell[@name='Progressive']", 30000, null, "19ed7bbe-5fb9-48af-b191-ee9da9702a8f");
-                _customprogressiveInfo = new RepoItemInfo(this, "CustomProgressive", "table[3]//element[@name='Custom Progressive']", 30000, null, "d98eeedb-bf32-4e45-9c7a-aa06f4d9f573");
+                _customprogressiveInfo = new RepoItemInfo(this, "CustomProgressive", "table[3]//element[@name='Custom Progressive' and @iskeyboardfocusable='True']", 30000, null, "d98eeedb-bf32-4e45-9c7a-aa06f4d9f573");
                 _edit1Info = new RepoItemInfo(this, "Edit1", "?/?/tabpage[@name='Signs']/table[@name='DataGrid']//link[@name='Edit']/text[@name='Edit']", 30000, null, "1144f4a3-f67b-46eb-bc6b-c0009189ecde");
+                _edit2Info = new RepoItemInfo(this, "Edit2", "?/?/tabpage[@name='Signs']/table[@name='DataGrid']//link[@name='Edit']/text[@name='Edit']", 30000, null, "c4abb413-2ed8-466f-a0ca-f898115360e4");
+                _edit3Info = new RepoItemInfo(this, "Edit3", "?/?/tabpage[@name='Signs']/table[@name='DataGrid']/element[@automationid='RowsPresenter']//link[@name='Edit']", 30000, null, "feb9f26a-d0e8-41d2-a930-cdc8708122e7");
+                _addanewgameInfo = new RepoItemInfo(this, "AddANewGame", "button[@name='Add a new game']", 30000, null, "8b3c84bb-af38-4c35-bc3c-d54cd885a6ae");
             }
 
             /// <summary>
@@ -92706,6 +92842,78 @@ namespace Ragnarok
                 get
                 {
                     return _edit1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Edit2 item.
+            /// </summary>
+            [RepositoryItem("c4abb413-2ed8-466f-a0ca-f898115360e4")]
+            public virtual Ranorex.Text Edit2
+            {
+                get
+                {
+                    return _edit2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Edit2 item info.
+            /// </summary>
+            [RepositoryItemInfo("c4abb413-2ed8-466f-a0ca-f898115360e4")]
+            public virtual RepoItemInfo Edit2Info
+            {
+                get
+                {
+                    return _edit2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Edit3 item.
+            /// </summary>
+            [RepositoryItem("feb9f26a-d0e8-41d2-a930-cdc8708122e7")]
+            public virtual Ranorex.Link Edit3
+            {
+                get
+                {
+                    return _edit3Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Edit3 item info.
+            /// </summary>
+            [RepositoryItemInfo("feb9f26a-d0e8-41d2-a930-cdc8708122e7")]
+            public virtual RepoItemInfo Edit3Info
+            {
+                get
+                {
+                    return _edit3Info;
+                }
+            }
+
+            /// <summary>
+            /// The AddANewGame item.
+            /// </summary>
+            [RepositoryItem("8b3c84bb-af38-4c35-bc3c-d54cd885a6ae")]
+            public virtual Ranorex.Button AddANewGame
+            {
+                get
+                {
+                    return _addanewgameInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddANewGame item info.
+            /// </summary>
+            [RepositoryItemInfo("8b3c84bb-af38-4c35-bc3c-d54cd885a6ae")]
+            public virtual RepoItemInfo AddANewGameInfo
+            {
+                get
+                {
+                    return _addanewgameInfo;
                 }
             }
         }

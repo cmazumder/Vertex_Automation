@@ -79,36 +79,36 @@ namespace Ragnarok.UserInterface.Configuration
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface' at 77;20.", repo.Vertex.VertexShellMainForm.UserInterfaceInfo, new RecordItemIndex(0));
-            repo.Vertex.VertexShellMainForm.UserInterface.Click("77;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface' at Center.", repo.Vertex.VertexShellMainForm.UserInterfaceInfo, new RecordItemIndex(0));
+            repo.Vertex.VertexShellMainForm.UserInterface.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.Configuration' at 30;11.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.ConfigurationInfo, new RecordItemIndex(1));
-            repo.Vertex.AristocratVertexWebUI.NavigationControl1.Configuration.Click("30;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.NavigationControl1.Configuration' at Center.", repo.Vertex.AristocratVertexWebUI.NavigationControl1.ConfigurationInfo, new RecordItemIndex(1));
+            repo.Vertex.AristocratVertexWebUI.NavigationControl1.Configuration.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl' at 511;37.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControlInfo, new RecordItemIndex(2));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl.Click("511;37");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControlInfo, new RecordItemIndex(2));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.TabControl.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -50 units.", new RecordItemIndex(3));
             Mouse.ScrollWheel(-50);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation' at 97;9.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidationInfo, new RecordItemIndex(4));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation.Click("97;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidationInfo, new RecordItemIndex(4));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.TurnoverValidation.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.False' at 5;20.", repo.Vertex.AristocratVertexWebUI.Form143077288.FalseInfo, new RecordItemIndex(5));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.False.Click("5;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.False' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.FalseInfo, new RecordItemIndex(5));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.False.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertex' at 15;15.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertexInfo, new RecordItemIndex(6));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertex.Click("15;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertex' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertexInfo, new RecordItemIndex(6));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Configuration.Options.Save_TimeSourceVertex.Click();
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexAdministrator.ButtonClose' at 13;10.", repo.Vertex.VertexAdministrator.ButtonCloseInfo, new RecordItemIndex(7));
-            //repo.Vertex.VertexAdministrator.ButtonClose.Click("13;10");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexAdministrator.ButtonClose' at Center.", repo.Vertex.VertexAdministrator.ButtonCloseInfo, new RecordItemIndex(7));
+            //repo.Vertex.VertexAdministrator.ButtonClose.Click();
             //Delay.Milliseconds(200);
             
         }

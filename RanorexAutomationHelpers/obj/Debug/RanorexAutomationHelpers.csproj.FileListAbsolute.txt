@@ -6,3 +6,11 @@ F:\Ranorex\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\Ranorex.Report
 F:\Ranorex\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.csprojResolveAssemblyReference.cache
 F:\Ranorex\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.dll
 F:\Ranorex\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.pdb
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\RanorexAutomationHelpers.xml
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\RanorexAutomationHelpers.dll
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\RanorexAutomationHelpers.pdb
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.csprojResolveAssemblyReference.cache
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.dll
+F:\CM\Automation\Vertex\src\Ragnarok\RanorexAutomationHelpers\obj\Debug\RanorexAutomationHelpers.pdb

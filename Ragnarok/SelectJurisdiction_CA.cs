@@ -79,29 +79,25 @@ namespace Ragnarok
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface' at 122;16.", repo.Vertex.VertexShellMainForm.UserInterfaceInfo, new RecordItemIndex(0));
-            repo.Vertex.VertexShellMainForm.UserInterface.Click("122;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexShellMainForm.UserInterface' at Center.", repo.Vertex.VertexShellMainForm.UserInterfaceInfo, new RecordItemIndex(0));
+            repo.Vertex.VertexShellMainForm.UserInterface.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ComboBox' at 246;11.", repo.Vertex.AristocratVertexWebUI.Form143077288.ComboBoxInfo, new RecordItemIndex(1));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.ComboBox.Click("246;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.ComboBox' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.ComboBoxInfo, new RecordItemIndex(1));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.ComboBox.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR' at 77;7.", repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFORInfo, new RecordItemIndex(2));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR.Click("77;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFORInfo, new RecordItemIndex(2));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.TextOK' at 6;9.", repo.Vertex.AristocratVertexWebUI.Form143077288.TextOKInfo, new RecordItemIndex(3));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.TextOK.Click("6;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.TextOK' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.TextOKInfo, new RecordItemIndex(3));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.TextOK.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='California[CALIFOR]') on item 'Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR1'.", repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR1Info, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.CaliforniaCALIFOR1Info, "Text", "California[CALIFOR]");
             Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.VertexAdministrator.Close' at 29;9.", repo.Vertex.VertexAdministrator.CloseInfo, new RecordItemIndex(5));
-            repo.Vertex.VertexAdministrator.Close.Click("29;9");
-            Delay.Milliseconds(200);
             
         }
 

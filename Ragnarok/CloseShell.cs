@@ -41,6 +41,7 @@ namespace Ragnarok
         /// </summary>
         public CloseShell()
         {
+            CloseAutProcessIDVar = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Ragnarok
         }
 
 #region Variables
+
+        string _CloseAutProcessIDVar;
+
+        /// <summary>
+        /// Gets or sets the value of variable CloseAutProcessIDVar.
+        /// </summary>
+        [TestVariable("5929a592-ac63-4b12-81d7-519124cf3b66")]
+        public string CloseAutProcessIDVar
+        {
+            get { return _CloseAutProcessIDVar; }
+            set { _CloseAutProcessIDVar = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,14 @@ namespace Ragnarok
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Vertex.VertexShellMainForm'.", repo.Vertex.VertexShellMainForm.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.Vertex.VertexShellMainForm.Self, 30000);
+            //Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Vertex.VertexShellMainForm'.", repo.Vertex.VertexShellMainForm.SelfInfo, new RecordItemIndex(0));
+            //Host.Current.CloseApplication(repo.Vertex.VertexShellMainForm.Self, 30000);
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", CloseAutProcessIDVar, new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application with Process ID bound to variable $CloseAutProcessIDVar.", new RecordItemIndex(2));
+            Host.Current.CloseApplication(int.Parse(CloseAutProcessIDVar), 30000);
             Delay.Milliseconds(0);
             
         }

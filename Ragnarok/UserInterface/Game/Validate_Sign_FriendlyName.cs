@@ -41,7 +41,8 @@ namespace Ragnarok.UserInterface.Game
         /// </summary>
         public Validate_Sign_FriendlyName()
         {
-            txt_sign_friendlyName = "";
+            txt_sign_friendlyName = "SIGN NAME";
+            txt_SignName = "SIGN NAME";
         }
 
         /// <summary>
@@ -64,6 +65,16 @@ namespace Ragnarok.UserInterface.Game
         {
             get { return _txt_sign_friendlyName; }
             set { _txt_sign_friendlyName = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable txt_SignName.
+        /// </summary>
+        [TestVariable("399573e3-b988-47ae-8470-ad5245565291")]
+        public string txt_SignName
+        {
+            get { return repo.txt_SignName; }
+            set { repo.txt_SignName = value; }
         }
 
 #endregion
@@ -92,12 +103,12 @@ namespace Ragnarok.UserInterface.Game
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.Edit' at Center.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.EditInfo, new RecordItemIndex(0));
-            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.Edit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.Edit3' at 45;12.", repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.Edit3Info, new RecordItemIndex(0));
+            repo.Vertex.AristocratVertexWebUI.Form143077288.Monitor.MonitorTabs.Edit3.Click("45;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_sign_friendlyName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyName'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyNameInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyNameInfo, "Text", txt_sign_friendlyName);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$txt_SignName) on item 'Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyName'.", repo.Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyNameInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.Vertex.AristocratVertexWebUI.Form143077288.Games.SignFriendlyNameInfo, "Text", txt_SignName);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.Cancel' at 62;12.", repo.Vertex.AristocratVertexWebUI.Form143077288.Casino.AddNewCasino.CancelInfo, new RecordItemIndex(2));

@@ -1,13 +1,11 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Ragnarok.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Ragnarok.rxtst" />
-    <Element value="UserInterface\Game\Edit_SignFriendlyName.rxrec" />
-    <Element value="UserInterface\Game\Validate_Sign_FriendlyName.rxrec" />
-    <Element value="UserInterface\Progressive\Click_save.rxrec" />
+    <Element value="CloseShell.rxrec" />
+    <Element value="StartShell.rxrec" />
+    <Element value="RamClear.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

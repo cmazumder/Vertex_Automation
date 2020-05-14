@@ -41,6 +41,7 @@ namespace Ragnarok
         /// </summary>
         public StartShell()
         {
+            StartAutProcessIDVar = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Ragnarok
         }
 
 #region Variables
+
+        string _StartAutProcessIDVar;
+
+        /// <summary>
+        /// Gets or sets the value of variable StartAutProcessIDVar.
+        /// </summary>
+        [TestVariable("025ec301-1b71-4397-b1aa-c4934d8ea7dc")]
+        public string StartAutProcessIDVar
+        {
+            get { return _StartAutProcessIDVar; }
+            set { _StartAutProcessIDVar = value; }
+        }
 
 #endregion
 
@@ -79,9 +92,11 @@ namespace Ragnarok
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Shell\\VertexShell.exe' with arguments '/windowed /suppressfilecheck /suppressups' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("D:\\Shell\\VertexShell.exe", "/windowed /suppressfilecheck /suppressups", "D:\\Shell\\", false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Shell\\VertexShell.exe' with arguments '/windowed /suppressfilecheck /suppressups' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("D:\\Shell\\VertexShell.exe", "/windowed /suppressfilecheck /suppressups", "D:\\Shell\\", false));
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", StartAutProcessIDVar, new RecordItemIndex(1));
             
         }
 

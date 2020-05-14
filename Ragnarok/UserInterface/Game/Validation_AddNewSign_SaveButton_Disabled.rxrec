@@ -25,12 +25,18 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
-		<validationitem
-		action="AttributeEqual"
-		duration="100ms"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
 		optional="False"
-		searchpropertyid="39328c23-7979-4eb5-aa51-5629e30b4d98">
+		searchpropertyid="cab1d4a1-8a79-4803-91f5-a560d4000ee6"
+		sx="990"
+		sy="619"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
@@ -42,11 +48,183 @@ mode="Global">
 					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/button[@name='Save']/text[@name='Save']
 				</path>
 			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="85325ff6-d7ea-4e14-9ed5-44f784faa191">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b14b65d5-f307-4f99-9809-16aaa4a31118"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="24"
+				prefcap="button"
+				rect="1052,666,73,28"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cancel
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Silverlight
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Cancel
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4076
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost']//div[#'silverlightControlHost']/?/?/form[@name='Silverlight Control']/button[@name='Cancel']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f3a9b76b-4c0c-4489-a5ed-1c9eb6522b3d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEOAQ4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqrf8fsn/XNP5tVqqrf8fsn/XNP
+5tSKWzH0jdKWkbpTJGUUUUAFFFFABRRRQAUUUUAFFFFAEn2uL0l/78v/AIUfa4vSX/vy/wDhRRS1
+KvHsH2uL0l/78v8A4Ufa4vSX/vy/+FFFGoXj2D7XF6S/9+X/AMKPtcXpL/35f/CiijULx7B9ri9J
+f+/L/wCFH2uL0l/78v8A4UUUahePYPtcXpL/AN+X/wAKPtcXpL/35f8Awooo1C8ewfa4vSX/AL8v
+/hR9ri9Jf+/L/wCFFFGoXj2D7XF6S/8Afl/8KPtcXpL/AN+X/wAKKKNQvHsH2uL0l/78v/hR9ri9
+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
+aiooAl3r60b19aiooAl3r60b19aiooAl3r60b19aiooAl3r60b19aiooAl3r60b19aiooAl3r60b
+19aiooAl3r60b19aiooAl3r60b19aiooAl3r60b19aiooAl3r60b19aiooAl3r60x2B4FNooAKKK
+KACiiigAooooAKKKKACiiigBKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooASiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAF
+opKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAP/9k=
+			</helperscreenshot>
 			<matchname>
-				Enabled
+				Valid
 			</matchname>
 			<matchvalue>
-				False
+				True
 			</matchvalue>
 		</validationitem>
 	</recorditems>
@@ -66,7 +244,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Validation_SignSaveButton_Disabled.UserCode.cs
+		Validation_AddNewSign_SaveButton_Disabled.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

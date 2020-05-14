@@ -31,7 +31,7 @@ rxversion="9.0">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="103;15"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="553bc66c-c2e6-4a1a-b908-2e342def22d1"
@@ -348,7 +348,7 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="56;8"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="c3a2d2c9-8a4b-44a2-96fa-f20137c05074"
@@ -360,1397 +360,19 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 			<bindings>
 			</bindings>
 			<info
-			id="22b1a7cb-ffd1-4238-8445-ad6443033602"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="tabpage"
-				rect="183,139,91,18"
-				role="tabpage"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="index"
-					type="System.Int32">
-						1
-					</attribute>
-					<attribute
-					name="selected"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="title"
-					type="System.String">
-						Backup/Restore
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Switch
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						Backup/Restore
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PageTab
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable, Selectable
-					</attribute>
-				</element>
+			id="78c5beda-54c1-43b5-8340-a9e97596291c"
+			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='DatabaseManagement']/?/?/tabpage[@accessiblename='Backup/Restore']
+					/form[@controlname='DatabaseManagement']/?/?/tabpage[@accessiblename='Actions']
 				</path>
 			</info>
-			<helperscreenshot
-			guid="e656f59c-fe53-4ade-a7d5-c476ff1b4c1b">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADwAPADASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmqKKK
-ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
-KKtfYv8Ap4i/8e/wpfsX/TxF/wCPf4UAVKKt/Yv+niL/AMe/wo+xf9PEX/j3+FAFSirf2L/p4i/J
-v8KPsX/TxF+Tf4UAVKKt/Yv+niL8m/wpPsX/AE8Rfk3+FAFWirX2L/p4i/Jv8KPsf/TxF+Tf4UAV
-aKtfYx/z8Rfk3+FH2Qf8/EX5N/hQBVoqz9kH/PxF+Tf4UfZB/wA/EX5N/hQBWoqz9lH/AD8Rfk3+
-FJ9lX/n5i/Jv8KAK9FWPsy/8/MX5N/hR9mX/AJ+Yvyb/AAoAr0VP9nX/AJ+Yvyb/AAo+zp/z8xfk
-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
-			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
-		loc="48;8"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="ac380838-4364-4472-b5d9-cfe78d4aef00"
-		sx="183"
-		sy="421"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="d213baaf-b261-44e9-a8c5-dbc587e140cf"
-			sourcename="Recorder">
-				<element
-				capabilities="control, nativewindow"
-				dontcache="False"
-				enabled="True"
-				flavor="winforms"
-				hasfocus="False"
-				index="0"
-				prefcap="button"
-				rect="135,413,75,23"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="text"
-					type="System.String">
-						RAM Clear
-					</attribute>
-					<attribute
-					name="controlname"
-					type="System.String">
-						buttonRAMClear
-					</attribute>
-					<attribute
-					name="controltext"
-					type="System.String">
-						RAM Clear
-					</attribute>
-					<attribute
-					name="controltype"
-					type="System.String">
-						System.Windows.Forms.Button
-					</attribute>
-					<attribute
-					name="controltypename"
-					type="System.String">
-						Button
-					</attribute>
-					<attribute
-					name="apphung"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="class"
-					type="System.String">
-						WindowsForms10.BUTTON.app.0.141b42a_r14_ad1
-					</attribute>
-					<attribute
-					name="handle"
-					type="System.IntPtr">
-						67656
-					</attribute>
-					<attribute
-					name="instance"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="processid"
-					type="System.Int32">
-						4008
-					</attribute>
-					<attribute
-					name="processname"
-					type="System.String">
-						VertexShell
-					</attribute>
-					<attribute
-					name="windowextendedstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
-						LeftToRightReading
-					</attribute>
-					<attribute
-					name="windowstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, MaximizeBox, ClipChildren, ClipSiblings, Visible, ChildWindow
-					</attribute>
-					<attribute
-					name="windowtext"
-					type="System.String">
-						RAM Clear
-					</attribute>
-					<dynamicattribute
-					description="No description available."
-					name="AccessibleDefaultActionDescription"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AccessibleDescription"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AccessibleName"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AccessibleRole"
-					readonly="False"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AllowDrop"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Anchor"
-					readonly="False"
-					type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AutoEllipsis"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AutoScrollOffset"
-					readonly="False"
-					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AutoSize"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="AutoSizeMode"
-					readonly="False"
-					type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="BackColor"
-					readonly="False"
-					type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="BackgroundImage"
-					readonly="False"
-					type="System.Drawing.Image, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="BackgroundImageLayout"
-					readonly="False"
-					type="System.Windows.Forms.ImageLayout, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Bottom"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Bounds"
-					readonly="False"
-					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="CanFocus"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="CanSelect"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Capture"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="CausesValidation"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ClientRectangle"
-					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ClientSize"
-					readonly="False"
-					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="CompanyName"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ContainsFocus"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Created"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Cursor"
-					readonly="False"
-					type="System.Windows.Forms.Cursor, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="DialogResult"
-					readonly="False"
-					type="System.Windows.Forms.DialogResult, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="DisplayRectangle"
-					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Disposing"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Dock"
-					readonly="False"
-					type="System.Windows.Forms.DockStyle, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Enabled"
-					readonly="False"
-					type="System.Boolean">
-						True
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="FlatStyle"
-					readonly="False"
-					type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Focused"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Font"
-					readonly="False"
-					type="System.Drawing.Font, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ForeColor"
-					readonly="False"
-					type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="HasChildren"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Height"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Image"
-					readonly="False"
-					type="System.Drawing.Image, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ImageAlign"
-					readonly="False"
-					type="System.Drawing.ContentAlignment, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ImageIndex"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ImageKey"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ImeMode"
-					readonly="False"
-					type="System.Windows.Forms.ImeMode, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="InvokeRequired"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="IsAccessible"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="IsDisposed"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="IsHandleCreated"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="IsMirrored"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Left"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Location"
-					readonly="False"
-					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Margin"
-					readonly="False"
-					type="System.Windows.Forms.Padding, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="MaximumSize"
-					readonly="False"
-					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="MinimumSize"
-					readonly="False"
-					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Name"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Padding"
-					readonly="False"
-					type="System.Windows.Forms.Padding, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ProductName"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ProductVersion"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="RecreatingHandle"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Right"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="RightToLeft"
-					readonly="False"
-					type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Size"
-					readonly="False"
-					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="TabIndex"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="TabStop"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Tag"
-					readonly="False"
-					type="System.Object">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="TextAlign"
-					readonly="False"
-					type="System.Drawing.ContentAlignment, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="TextImageRelation"
-					readonly="False"
-					type="System.Windows.Forms.TextImageRelation, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Top"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="UseCompatibleTextRendering"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="UseMnemonic"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="UseVisualStyleBackColor"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="UseWaitCursor"
-					readonly="False"
-					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Visible"
-					readonly="False"
-					type="System.Boolean">
-						True
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="Width"
-					readonly="False"
-					type="System.Int32">
-					</dynamicattribute>
-					<dynamicaction
-					description="No description available."
-					displayName="BringToFront">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="CreateControl">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="DoDragDrop">
-						<argument
-						description="No description available."
-						displayName="data"
-						type="System.Object">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="allowedEffects"
-						type="System.Windows.Forms.DragDropEffects, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Windows.Forms.DragDropEffects, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="DrawToBitmap">
-						<argument
-						description="No description available."
-						displayName="bitmap"
-						type="System.Drawing.Bitmap, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="targetBounds"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Focus">
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Boolean">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="GetPreferredSize">
-						<argument
-						description="No description available."
-						displayName="proposedSize"
-						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Hide">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Invalidate">
-						<argument
-						description="No description available."
-						displayName="rc"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="invalidateChildren"
-						type="System.Boolean">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="NotifyDefault">
-						<argument
-						description="No description available."
-						displayName="value"
-						type="System.Boolean">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="PerformClick">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="PerformLayout">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="PointToClient">
-						<argument
-						description="No description available."
-						displayName="p"
-						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="PointToScreen">
-						<argument
-						description="No description available."
-						displayName="p"
-						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="RectangleToClient">
-						<argument
-						description="No description available."
-						displayName="r"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="RectangleToScreen">
-						<argument
-						description="No description available."
-						displayName="r"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</argument>
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Refresh">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetBackColor">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetBindings">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetCursor">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetFont">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetForeColor">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetImeMode">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetRightToLeft">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResetText">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ResumeLayout">
-						<argument
-						description="No description available."
-						displayName="performLayout"
-						type="System.Boolean">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Scale">
-						<argument
-						description="No description available."
-						displayName="dx"
-						type="System.Single">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="dy"
-						type="System.Single">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Select">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="SendToBack">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="SetBounds">
-						<argument
-						description="No description available."
-						displayName="x"
-						type="System.Int32">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="y"
-						type="System.Int32">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="width"
-						type="System.Int32">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="height"
-						type="System.Int32">
-						</argument>
-						<argument
-						description="No description available."
-						displayName="specified"
-						type="System.Windows.Forms.BoundsSpecified, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						</argument>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Show">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="SuspendLayout">
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="ToString">
-						<returns
-						description="No description available."
-						displayName="returns"
-						type="System.String">
-						</returns>
-					</dynamicaction>
-					<dynamicaction
-					description="No description available."
-					displayName="Update">
-					</dynamicaction>
-				</element>
-				<path>
-					/form[@controlname='DatabaseManagement']/?/?/tabpage[@controlname='tabPageRecovery']/button[@controlname='buttonRAMClear']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="b04cd69f-f962-4094-ac08-4b1ed2f9ba74">
-				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
-			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="False"
-		loc="39;10"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="577d4e66-9719-476b-bad8-9b06a666f53b"
-		sx="1033"
-		sy="660"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="22f3655e-56ba-4d28-85f6-e700cc2fb4b1"
-			sourcename="Recorder">
-				<element
-				capabilities="nativewindow"
-				dontcache="False"
-				enabled="True"
-				flavor="win32"
-				hasfocus="True"
-				index="0"
-				prefcap="button"
-				rect="994,650,88,26"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						&amp;Yes
-					</attribute>
-					<attribute
-					name="apphung"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="class"
-					type="System.String">
-						Button
-					</attribute>
-					<attribute
-					name="controlid"
-					type="System.Int32">
-						6
-					</attribute>
-					<attribute
-					name="handle"
-					type="System.IntPtr">
-						67680
-					</attribute>
-					<attribute
-					name="instance"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="processid"
-					type="System.Int32">
-						4008
-					</attribute>
-					<attribute
-					name="processname"
-					type="System.String">
-						VertexShell
-					</attribute>
-					<attribute
-					name="windowextendedstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
-						RightScrollBar, Left, NoParentNotify
-					</attribute>
-					<attribute
-					name="windowstyle"
-					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, MaximizeBox, Group, Visible, ChildWindow
-					</attribute>
-					<attribute
-					name="windowtext"
-					type="System.String">
-						&amp;Yes
-					</attribute>
-					<dynamicattribute
-					description="The default action of the accessible object."
-					name="AccessibleDefaultAction"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The description of the accessible object."
-					name="AccessibleDescription"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The help string of the accessible object."
-					name="AccessibleHelp"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
-					name="AccessibleHelpTopic"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The keyboard shortcut of the accessible object."
-					name="AccessibleKeyboardShortcut"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The name of the accessible object."
-					name="AccessibleName"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The role of the accessible object."
-					name="AccessibleRole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The state of the accessible object."
-					name="AccessibleState"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The value of the accessible object."
-					name="AccessibleValue"
-					readonly="False"
-					truncationlength="-1"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicaction
-					description="Invokes the default action of the accessible object."
-					displayName="AccessibleDoDefaultAction">
-					</dynamicaction>
-				</element>
-				<path>
-					/form[@title='RAM Clear']/button[@text='&amp;Yes']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="988a2c0a-4c39-4164-be2f-1b7895753c9e">
-				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
-ZmY59Sc0AZiXMv2e1a4vDEsqF2lIUYPGF5GPU+vFSrcyNJCtzcfZt0asOAvmNnkfNn24681o0UAZ
-AvLrzrjEkRZN+2AsN3HTC7c+nc9aIryUwAyXsWxpAGlR1coMHr8oA5A6jvWvRQBlWoWW2RGcFZbi
-QFscuASePTpWrRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
-WHrf/H23+5H/ADetysLXP+Ps/wC5H/N6AOf1T/j+P+4n/oAoo1T/AI/j/uJ/6AKKAE0v/j9H+5J/
-6Aa6DQv+Pof7kn80rn9M/wCP0f8AXOT/ANANb+g/8fQ/3H/mlAG/RRRQAUUUUAFFFFABRRRQAUUU
-UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
-AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWDrv/H2f9yP+b1vVga9/x9H/AHI/5vQB
-gap/x+n/AHI//QBRRqf/AB+n/rnH/wCgCigA03/j8/7Zyf8AoBre8Pn/AEof7j/zSsDTv+Pv/tnJ
-/wCgGtzQDm4H+6/80oA6PI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1q
-OigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigC
-TI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9a
-Mj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1q
-OigCTI9aMj1qOigCTI9aMj1qOigCTI9aMj1qOigCTI9a5/xAf9KP+4n83rcrA184uD/uJ/N6AMTU
-v+Pz/tnH/wCgCik1H/j7/wC2cf8A6AKKADT/APj6/wC2cn/oBrb8Pf8AHx/wF/5pWHp//Hyf+ucn
-/oBrb8Of6/8A4C/80oA6GiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
-ooAKKKKACiiigAooooAKKKKACufsLKO6iyd5csRwwAAAHsfWugrJ0TiP8X/9kqWk5JM6Kc5QpycX
-2/UX+xl9/wDv7/8AY0f2Mvv/AN/f/sa1Nw9aNw9arkj2M/rNX+Yy/wCxl9/+/v8A9jR/Yy+//f3/
-AOxrU3D1pkzuImMW0uBlQeho5I9g+s1f5jO/sZff/v7/APY0f2Mvv/39/wDsalTVYGuGRm2IFBBY
-ffOAcD1IyOOvNWBewHbguSxwB5bZH1GMj8aOSPYPrNX+Ypf2Mvv/AN/f/saP7GX3/wC/v/2Nam4e
-tG4etHJHsH1mr/MZf9jL7/8Af3/7Gk/sZff/AL+//Y1q7h60bh60ckewfWav8xhvax29zZtHvy8u
-GDEHBDAdq25H8tC2MnIAHqScVl3n/HzZf9d3/wDQxWlP9xf99P8A0IVKSTaRpVk5Qg5b/wDBDM//
-ADzj/wC/h/wozP8A884v+/h/+Jp+4etG4etUc4zM/wDzzi/7+H/4mjM//POL/v4f/iafuHrRuHrQ
-AzM//POL/v4f/iaMz/8APOL/AL+H/wCJqul4322WGQKEBCow7naCQfz/AEpItQi+zxPO2HdA7BVJ
-Cj1OM4H1oAs5n/55xf8Afw//ABNGZ/8AnnF/38P/AMTT9wPcUbh60AMzP/zzi/7+H/4mjM//ADzi
-/wC/h/8AiafuHrRuHrQA2N2LsjqFZQDwcgg//qrC8Q/8fH/AU/m9ba83L/7i/wA2rD8R/wCv/wCA
-p/N6AMXUP+Pr/tnH/wCgCik1D/j5H/XOP/0AUUAFh/x8n/rlJ/6Aa2vDf+v/AOAv/NKxbH/j4P8A
-1yk/9ANbPhr/AF//AAF/5pQB0dFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
-FABRRRQAUUUUAFFFFABRRRQAUUUUAFY+j/6n8X/9krYrC064git8PMI3DngoWBBA9PpU3SkmzeEZ
-SpSUVfb9TWzRmqf263/5+Y/+/T/40fbrf/n5j/79P/jWvPHuc/1er/Ky5mjNU/t1v/z8x/8Afp/8
-aPt1v/z8x/8Afp/8aOePcPq9X+Vha6fDPbXttMNym4LAgYKkqp4/Oq6QvHOtpJ5MLqdyPHHt8xeM
-4IIweOR/SmPqMkbXCWzoNz+YJCpw2FUBQPcjGTSW9zA908slxkZEse9mfbuByuAcDHP51Kku5bpT
-0TTubGaM1T+3W/8Az8x/9+n/AMaPt1v/AM/Mf/fp/wDGq549yPq9X+VlzNGap/brf/n5j/79P/jR
-9ut/+fmP/vy/+NHPHuH1er/K/uGXn/HzZf8AXd//AEMVpXH+rH++n/oQrJnnhlubJYZPMKyZY4I5
-LA/41ryp5iFc4PBB9COayTu3Y6KkXGnBPz/MjzRmjypf78f/AHwf/iqPKk/vx/8AfB/+KqjAM0Zo
-8qT+/H/3wf8A4qjypP78f/fB/wDiqAK7Wwbz8uR5rBgQOVIAA/lUS2TpGqJOBmIRuSmcgZ5HPB5P
-rV3ypP78f/fB/wDiqPKk/vx/98H/AOKoARcKoA6AYpc0eVJ/fj/74P8A8VR5Un9+P/vg/wDxVABm
-jNHlSf34/wDvg/8AxVHlSf34/wDvg/8AxVACxf69/wDcX+bVh+JP9f8A8BT+b1vRRlGZmYMTgcDA
-AH/6zWB4l/1//AU/m9AGNf8A/HyP+uUf/oAoovv+Pgf9co//AEAUUAFj/wAfB/65Sf8AoBrZ8M/6
-/wD4C/8ANKwreTypgx+7gq2PQjB/Q1ZjSQKRFLA6ZyN7IP0bmgDt6K4rbP62n/fUVG2f1tP++oqA
-O1orits/raf99RUbZ/W0/wC+oqAO1orits/raf8AfUVG2f1tP++oqAO1orits/raf99RUbZ/W0/7
-6ioA7WiuK2z+tp/31FRtn9bT/vqKgDtaK4rbP62n/fUVG2f1tP8AvqKgDtaK4rbP/etP++oqNs/9
-60/76ioA7WiuK2z+tp/31FRtn9bT/vqKgDtaK4rbP/etP++oqXbP62n/AH1FQB2lFcZif1tP++oq
-P3/raf8AfUVAHZ0VxmJ/W0/76ioxP62n/fUVAHZ0Vxv7/wBbT/vqKk/f+tp/31FQB2dFcZ+/9bT/
-AL6ioIn9bT/vqKgDs6K4rbP62n/fUVG2f1tP++oqAO1ori9s/raf99RUbZ/W0/76ioA7Sofslt/z
-7xf98CuR2z+tp/31FRtn9bT/AL6iosNNrY677Jbf8+8X/fAo+yW3/PvF/wB8CuR2z+tp/wB9RUbZ
-/W0/76ipWQ+eXc677Jbf8+8X/fAo+yW3/PvF/wB8CuR2z+tp/wB9RUYn9bT/AL6iosg55dzrvslt
-/wA+8X/fAo+yW3/PvF/3wK5HbP62n/fUVG2f1tP++oqLIOeXc677Jbf8+8X/AHwKPslt/wA+8X/f
-Arkds/raf99RUm2f+9af99RU7IOeXc6/7Jbf8+8X/fAo+yW3/PvF/wB8CuQ2z/3rT/vqKjbP/etP
-++oqLIOeXc7AW1urBlgiBByCEHFS1xW2f+9af99RUbZ/71p/31FRYTbe52tFcVtn/vWn/fUVG2f+
-9af99RUCO1orits/960/76io2z/3rT/vqKgDtaK4rbP62n/fUVG2f1tP++oqAO1orits/raf99RU
-bZ/W0/76ioA7WiuK2z+tp/31FRtn9bT/AL6ioA7Wuc8Tf6//AICn83rN2z+tp/31FTZEkKgSywIm
-cnYyH9F5pgRX3/HwP+uUf/oAoqO4k82YsPu4Crn0AwP0FFIBssflvtzmmUUUo6o0qpRm0gooopmY
-UUUUAFFFFABRRRQAUUUUAFFFFAC0+cBZnA4ANFFAD7i38jb827d7YpZbXy5o49+d/fHSiikK457Y
-QzKpbdlSentUUYHkyPgZXGMjNFFAAMSBiAFwuTx15/SpGtMW4l39s4xRRQAk9t5KBt+7Jx0oZFNq
-GxhgM59ecUUUAOS3E0oUNt+QHp7UkdpvldN+NpxnHWiigVxstv5cSvuzkkYxTpLXy5I035398dKK
-KB3K9JRRTGSFR5fvjNID8h6ce1FFSavRr0Eb7qn1pVHyse4oopk9fl+gDBzx2oY7WxgYFFFHUf2b
-i7QYs9x/jTWGMfSiikhyWgq8KDgcnFOwAQuOuaKKGOKGceX05zTto2qPU9aKKGKKTGk9Rge1OIHm
-bMDGcUUUxLUQ/dzgcH0pccZwM7c9KKKQ0IpznpwPSgfdLcZ4HSiimShRjAOByeaYRhiKKKEEthKK
-KKZAUUUUAFFFFABRRRQAUUUUAf/Z
-			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="6;7"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="976434d5-418b-4b1f-9b82-01639266a249"
@@ -2737,7 +1359,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="48;9"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="d2c109a1-cba3-4cb2-85c4-b6fddb666de5"
@@ -3629,7 +2251,7 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="41;9"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="e74dc020-8560-43d9-8c22-3315d13b5973"
@@ -3881,6 +2503,7 @@ FFFABRRRQAUUUUAFFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
 		<WaitForRecordItem
+		duration="180000ms"
 		enabled="True"
 		optional="False"
 		searchpropertyid="c8cd5ff2-98b2-4c2c-94bb-921d12425ceb"
@@ -4907,12 +3530,33 @@ FFFABRRRQAUUUUAFFFFAH//Z
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<WaitForRecordItem
+		duration="60000ms"
+		enabled="True"
+		matchname="Enabled"
+		matchvalue="True"
+		optional="False"
+		searchpropertyid="23d76334-02d4-493e-9de8-cccfd737fe7b"
+		waitaction="AttributeEqual"
+		waittimeout="50000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8f994156-a2b1-42e9-aa78-18525153eb3e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='DatabaseManagement']/?/?/button[@controlname='buttonApply']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="38;7"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="a801c436-a51f-4dda-8540-8783a1e11d8f"
@@ -4924,8 +3568,8 @@ FFFABRRRQAUUUUAFFFFAH//Z
 			<bindings>
 			</bindings>
 			<info
-			id="d8ed5259-f2a3-4bcd-a862-0a1808a83da9"
-			sourcename="Recorder">
+			id="8f994156-a2b1-42e9-aa78-18525153eb3e"
+			sourcename="RepositoryEditor">
 				<element
 				capabilities="control, nativewindow"
 				dontcache="False"
@@ -4934,7 +3578,7 @@ FFFABRRRQAUUUUAFFFFAH//Z
 				hasfocus="False"
 				index="0"
 				prefcap="button"
-				rect="449,466,75,23"
+				rect="444,472,75,23"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -4972,12 +3616,12 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					<attribute
 					name="class"
 					type="System.String">
-						WindowsForms10.BUTTON.app.0.141b42a_r14_ad1
+						WindowsForms10.BUTTON.app.0.2bf4fce_r14_ad1
 					</attribute>
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						1049920
+						852914
 					</attribute>
 					<attribute
 					name="instance"
@@ -4987,7 +3631,7 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						4008
+						2812
 					</attribute>
 					<attribute
 					name="processname"
@@ -5151,6 +3795,11 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					name="Cursor"
 					readonly="False"
 					type="System.Windows.Forms.Cursor, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="No description available."
+					name="DeviceDpi"
+					type="System.Int32">
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
@@ -5502,6 +4151,20 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					</dynamicaction>
 					<dynamicaction
 					description="No description available."
+					displayName="LogicalToDeviceUnits">
+						<argument
+						description="No description available."
+						displayName="value"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="No description available."
+						displayName="returns"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="No description available."
 					displayName="NotifyDefault">
 						<argument
 						description="No description available."
@@ -5692,87 +4355,9 @@ FFFABRRRQAUUUUAFFFFAH//Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='DatabaseManagement']/button[@controlname='buttonApply']
+					/form[@controlname='DatabaseManagement']/?/?/button[@controlname='buttonApply']
 				</path>
 			</info>
-			<helperscreenshot
-			guid="acae2e0a-fee4-4942-a463-f5b0a273bd8d">
-				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
-/N//AIqj7cP+fWH83/8Aiqp0UAX4rkyKxS0gO3tl8/8AoVOgu2kfatpD7n5+P/HqoI7RtuRiD7VI
-11O6lTIcH0AFArFiS+Acr9mgOD1y/wD8VTft4/59Yfzf/wCKqnRQMt/bh/z6w/m//wAVS/bh/wA+
-sP5v/wDFVTooAufbx/z6w/m//wAVR9uH/PrD+b//ABVU6KALRu0PW0g/N/8A4qk+1R/8+cH5v/8A
-FVWooAs/ao/+fOD83/8AiqKrUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
-FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
-UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
-QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
-BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
-FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
-UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
-QAUUUUAf/9k=
-			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
 	<repository
